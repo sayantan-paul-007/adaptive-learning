@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --head-font: 'Source Sans 3';
+    --body-font: 'Noto Sans';
+    /* Accent Colors
+    --primary:;
+    --secondary:;
+    --accent:;
+    Neutral Colors
+    --neutral: */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container{
+    margin: 0 !important;
+}
+.head-font{
+    font-family: var(--head-font);
+}
+.body-font{
+    font-family: var(--body-font);
+}
+.fw-100{
+    font-weight: 100;
+}
+.fw-200{
+    font-weight: 200;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+.fw-900{
+    font-weight: 900;
+}
+h2{
+    font-size: 3rem !important;
+}
+h3{
+    font-size: 2.5rem !important;
+}
+h4{
+    font-size: 1.75rem !important;
+}
+p{
+    font-size: 1rem !important;
+}
+section{
+    width: 100%;
+    padding: 2rem 5rem !important;
+}
+.title{
+    padding-bottom: 1.5rem !important;
+    text-transform: uppercase;
+}
+button{
+    padding: 1rem !important;
+}
+.text-white{
+    color: #fff !important;
+}
+/* Navbar */
+.navbar {
+    padding: 1rem 4rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 15px 0px rgba(219, 216, 219, 1);
+}
+
+.nav-left,
+.nav-right {
+    flex: 1;
+}
+
+.nav-center {
+    flex: 4;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-center ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.ham-list ul{
+    list-style: none;
+    padding: 2rem;
+}
+.ham-list{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    background-color: aqua;
+    height: 100%;
+}
+/* Banner */
+.banner-image{
+    width: 100%;
+    border-radius: 1rem;
+}
+/* About Us */
+
+.about-img{
+    display: flex;
+    justify-content: center;
+}
+.about-btn{
+    padding: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: crimson;
+    font-size: 16px;
+}
+/* Why Adaptive */
+.why-flex,.modes-flex{
+    width: 100% !important;
+display: flex;
+justify-content: center !important;
+}
+.why-card,.mode-card{
+    border-radius: 0.5rem;
+    /* height: 350px; */
+}
+.blackbox-overlay{
+    display: none;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1.5rem;
+}
+.card-head{
+    font-size: 1.25rem !important;
+
+}
+.mode-card{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: .5rem !important;
+padding: 1rem 1.25rem !important;
+}
+.counter::after{
+    content: '+';
+}
+/* Footer */
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 1.5rem !important;
+}
+.footer-left,.footer-mid,.footer-right{
+    flex: 1;
+}
+.footer-list li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0 !important  ;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
