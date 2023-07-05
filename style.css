@@ -176,7 +176,7 @@ footer{
     justify-content: center;
     flex-wrap: wrap !important;
     background-color: rgb(35, 80, 65);
-    
+    color: #fff;
     padding: 1.5rem !important;
 }
 .footer-left,.footer-mid,.footer-right{
