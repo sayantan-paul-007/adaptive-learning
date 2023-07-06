@@ -13,3 +13,14 @@ counters.forEach((counter) => {
   };
   updateCounter();
 });
+const hamicon= document.querySelector('.ham-icon');
+const hamlist = document.querySelector('.ham-list');
+const hamclose = document.querySelector('.ham-close');
+hamicon.addEventListener('click',function () {
+  hamlist.classList.add('show');
+  hamlist.classList.remove('close');
+})
+hamclose.addEventListener('click', function () {
+  hamlist.classList.remove('show');
+  hamlist.classList.add('close');
+})

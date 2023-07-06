@@ -74,7 +74,10 @@ section{
     text-transform: uppercase;
 }
 button{
-    padding: 1rem !important;
+    padding: 1rem 2rem !important;
+
+    border-radius: .75rem;
+    border: none;
 }
 .text-white{
     color: #fff !important;
@@ -85,6 +88,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 18px;
     box-shadow: 0px 10px 15px 0px rgba(219, 216, 219, 1);
 }
 
@@ -101,7 +105,9 @@ button{
     display: flex;
     justify-content: center;
 }
-
+.ham-icon{
+    display: none;
+}
 .nav-center ul {
     list-style: none;
     display: flex;
@@ -114,10 +120,18 @@ button{
 .ham-list{
     position: fixed;
     top: 0;
-    right: 0;
+    right: -40%;
     width: 40%;
     background-color: aqua;
     height: 100%;
+}
+.show{
+    right: 0 !important;
+    transition: .75s ease-in-out;
+}
+.close{
+    right: -40% !important;
+    transition: .75s ease-in-out;
 }
 /* Banner */
 .banner-image{
@@ -159,7 +173,7 @@ justify-content: center !important;
     font-size: 1.25rem !important;
 
 }
-.mode-card{
+.mode-card,.mobile-card{
     display: flex;
 align-items: center;
 justify-content: center;
@@ -192,4 +206,54 @@ footer{
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+}
+.mobile-flex{
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+}
+.mobile-flex p{
+    font-size: 1.25rem !important;
+}
+.mobile-card{
+    width: 300px;
+   justify-content: flex-start;
+}
+.mobile-side{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.mobile-stickers{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem !important;
+    gap: 2rem;
+}
+.mobile-stickers div{
+    width: 200px;
+}
+@media screen and (max-width: 820px){
+    .navbar{
+        padding: 1rem 3rem !important;
+    }
+    .nav-center,.nav-right{
+        display: none;
+    }
+    .ham-icon{
+        display: block;
+    }
+    .banner{
+        padding:1rem !important;
+    }
+    .modes-flex{
+        flex-wrap: wrap;
+        padding: 0 !important;
+    }
+    .modes-card{
+        flex-direction: row;
+    }
 }
