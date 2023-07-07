@@ -67,7 +67,7 @@ p{
 }
 section{
     width: 100%;
-    padding: 2rem 5rem !important;
+    padding: 1.75rem 5rem !important;
 }
 .title{
     padding-bottom: 1.5rem !important;
@@ -139,11 +139,23 @@ button{
     border-radius: 1rem;
 }
 /* About Us */
+.about-flex{
+    display: flex;
+    padding: 0 2rem !important ;
+    align-items: center;
+    justify-content: center ;
+    gap: 2.5rem;
+}
 
 .about-img{
     display: flex;
     justify-content: center;
 }
+.about-text button{
+ display: flex;
+ padding: 200px;
+}
+
 .about-btn{
     padding: 1.5rem;
     border: none;
@@ -152,22 +164,50 @@ button{
     font-size: 16px;
 }
 /* Why Adaptive */
-.why-flex,.modes-flex{
+.why-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 345px);
+    justify-content: center;
+    width: 100%;
+    gap:30px;
+    padding: 2rem;
+}
+
+/* Modes of Learning */
+.modes-flex{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.mockup-img{
+    display: flex;
+    justify-content: center;
+    
+}
+.mockup-img img{
+    width: 75%;
+}
+.mode-card{
+    height: max-content;
+}
+/* .why-flex,.modes-flex{
     width: 100% !important;
 display: flex;
 justify-content: center !important;
-}
+} */
 .why-card,.mode-card{
     border-radius: 0.5rem;
-    /* height: 350px; */
+   
 }
 .blackbox-overlay{
     display: none;
 }
 .card-grid{
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 1.5rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 450px);
+    gap: 1.75rem;
+    padding: 1.5rem !important;
 }
 .card-head{
     font-size: 1.25rem !important;
@@ -178,6 +218,7 @@ justify-content: center !important;
 align-items: center;
 justify-content: center;
 gap: .5rem !important;
+
 padding: 1rem 1.25rem !important;
 }
 .counter::after{
@@ -249,11 +290,26 @@ footer{
     .banner{
         padding:1rem !important;
     }
+    .about-flex{
+        flex-wrap: wrap-reverse !important;
+        padding: 0 !important;
+    }
+    .about-button{
+        display: flex;
+        justify-content: center;
+    }
+    .why-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 90%);
+    }
     .modes-flex{
         flex-wrap: wrap;
         padding: 0 !important;
     }
     .modes-card{
         flex-direction: row;
+    }
+    .mockup-img img{
+        width: 100%;
     }
 }
