@@ -182,7 +182,6 @@ justify-content: center;
 .mockup-img{
     display: flex;
     justify-content: center;
-    
 }
 .mockup-img img{
     width: 75%;
@@ -220,6 +219,33 @@ justify-content: center;
 gap: .5rem !important;
 
 padding: 1rem 1.25rem !important;
+}
+/* Adaptive in numbers */
+.numb-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.numb-img{
+    width: 45%;
+}
+.num-grid{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: repeat(2, 275px);
+    gap: 1.75rem;
+    padding: 1.5rem !important;
+}
+.num-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    border-radius: 1rem;
+padding: 1rem 1.25rem !important;
+    justify-content: center;
 }
 .counter::after{
     content: '+';
@@ -269,7 +295,7 @@ footer{
 }
 .mobile-stickers{
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     width: 100%;
     padding: 2rem !important;
     gap: 2rem;
