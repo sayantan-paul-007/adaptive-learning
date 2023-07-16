@@ -11,21 +11,20 @@
     Neutral Colors
     --neutral: */
 }
-
+/* General Classes */
 * {
     box-sizing: border-box;
     margin: 0 !important;
     padding: 0 !important;
 }
-.container{
-    margin: 0 !important;
-}
+/* Font Classes */
 .head-font{
     font-family: var(--head-font);
 }
 .body-font{
     font-family: var(--body-font);
 }
+/* Font Weights */
 .fw-100{
     font-weight: 100;
 }
@@ -53,282 +52,171 @@
 .fw-900{
     font-weight: 900;
 }
-h2{
-    font-size: 3rem !important;
+.title{
+    font-size: 3rem;
+    padding-bottom: 1.5rem !important;
 }
-h3{
-    font-size: 2.5rem !important;
-}
-h4{
-    font-size: 1.75rem !important;
-}
-p{
-    font-size: 1rem !important;
+.sub-title{
+    font-size: 1.25rem;
 }
 section{
-    width: 100%;
-    padding: 1.75rem 5rem !important;
-}
-.title{
-    padding-bottom: 1.5rem !important;
-    text-transform: uppercase;
-}
-button{
-    padding: 1rem 2rem !important;
-
-    border-radius: .75rem;
-    border: none;
-}
-.text-white{
-    color: #fff !important;
+    padding: 2rem 5rem !important;
 }
 /* Navbar */
-.navbar {
-    padding: 1rem 4rem !important;
+nav{
+    padding: 1rem 5rem !important;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.navbar{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 18px;
-    box-shadow: 0px 10px 15px 0px rgba(219, 216, 219, 1);
+    gap: 20px;
 }
-
-.nav-left,
-.nav-right {
-    flex: 1;
-}
-
-.nav-center {
-    flex: 4;
-}
-
-.nav-right {
+.nav-center{
     display: flex;
-    justify-content: center;
+    gap: 20px;
 }
-.ham-icon{
-    display: none;
-}
-.nav-center ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-.ham-list ul{
-    list-style: none;
-    padding: 2rem;
-}
-.ham-list{
-    position: fixed;
-    top: 0;
-    right: -40%;
-    width: 40%;
-    background-color: aqua;
-    height: 100%;
-}
-.show{
-    right: 0 !important;
-    transition: .75s ease-in-out;
-}
-.close{
-    right: -40% !important;
-    transition: .75s ease-in-out;
+.nav-btn{
+    padding: 1rem !important;
+    font-size: 1rem;
 }
 /* Banner */
-.banner-image{
+.banner-section{
     width: 100%;
-    border-radius: 1rem;
+}
+img{
+    width: 100%;
+}
+/* Metabox */
+.metabox{
+    font-size: 20px;
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: aqua;
 }
 /* About Us */
 .about-flex{
     display: flex;
-    padding: 0 2rem !important ;
+    justify-content: center;
     align-items: center;
-    justify-content: center ;
-    gap: 2.5rem;
+    gap: 30px;
 }
-
-.about-img{
-    display: flex;
-    justify-content: center;
+.about-flex >div{
+    width: 50%;
 }
-.about-text button{
- display: flex;
- padding: 200px;
-}
-
-.about-btn{
-    padding: 1.5rem;
-    border: none;
-    border-radius: 0.5rem;
-    background-color: crimson;
-    font-size: 16px;
-}
-/* Why Adaptive */
-.why-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 345px);
-    justify-content: center;
-    width: 100%;
-    gap:30px;
-    padding: 2rem;
-}
-
-/* Modes of Learning */
-.modes-flex{
-    display: flex;
-flex-direction: column;
-justify-content: center;
-}
-.mockup-img{
-    display: flex;
-    justify-content: center;
-}
-.mockup-img img{
-    width: 75%;
-}
-.mode-card{
-    height: max-content;
-}
-/* .why-flex,.modes-flex{
-    width: 100% !important;
+.about-text{
 display: flex;
-justify-content: center !important;
-} */
-.why-card,.mode-card{
+flex-direction: column;
+gap: 20px;
+}
+.about-btn{
+    width: fit-content;
+    padding: 0.5rem 1rem !important;
+
+}
+/* Youtube */
+.youtube-flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 2rem 0 !important;
+}
+.yt-button{
+    display: flex;
+    justify-content: center;
+}
+/* Why Adaptive Learning */
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, calc(100%/3.75));
+    justify-content: center;
+    gap: 30px;
+    padding: 2rem 0 !important;
+}
+.grid-card{
+    padding: 1rem !important;
     border-radius: 0.5rem;
-   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
-.blackbox-overlay{
-    display: none;
-}
-.card-grid{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fill, 450px);
-    gap: 1.75rem;
-    padding: 1.5rem !important;
-}
-.card-head{
-    font-size: 1.25rem !important;
-
-}
-.mode-card,.mobile-card{
+/* Modes of Learning */
+/* Testimonials */
+.testimonial-flex{
     display: flex;
-align-items: center;
-justify-content: center;
-gap: .5rem !important;
+    padding: 2rem 0 !important;
+    gap: 30px;
+    justify-content: center;
+}
 
-padding: 1rem 1.25rem !important;
-}
-/* Adaptive in numbers */
-.numb-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.numb-img{
-    width: 45%;
-}
-.num-grid{
-    display: grid;
-    justify-content: center;
-    place-items: center;
-    grid-template-columns: repeat(2, 275px);
-    gap: 1.75rem;
+.testimonial-card{
     padding: 1.5rem !important;
-}
-.num-card{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    gap: 0.5rem;
+    justify-content: center !important;
+    width: 30%;
+    gap: 20px;
     border-radius: 1rem;
-padding: 1rem 1.25rem !important;
-    justify-content: center;
 }
-.counter::after{
-    content: '+';
+.test-image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.testimonial-card img{
+    border-radius: 50% ;
+   aspect-ratio: 1/1;
+
+}
+.test-text{
+    font-size: 14px;
+}
+.test-user{
+    font-size: 1.25rem;
+}
+.quote{
+    font-family: "Arial";
+    font-size: 20px;
 }
 
-/* Adaptive in mobile */
-.mobile-flex{
-    display: flex;
-}
-/* Footer */
-footer{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap !important;
-    background-color: rgb(35, 80, 65);
-    color: #fff;
-    padding: 1.5rem !important;
-}
-.footer-left,.footer-mid,.footer-right{
-    flex: 1;
-}
-.footer-list li{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.5rem 0 !important  ;
-}
-.social-icons{
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-}
-.mobile-flex{
-    padding: 2rem;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 3rem;
-}
 
-@media screen and (max-width: 820px){
-    .navbar{
-        padding: 1rem 3rem !important;
-    }
-    .nav-center,.nav-right{
-        display: none;
-    }
-    .ham-icon{
-        display: block;
-    }
-    .banner{
-        padding:1rem !important;
-    }
-    .about-flex{
-        flex-wrap: wrap-reverse !important;
-        padding: 0 !important;
-    }
-    .about-button{
-        display: flex;
-        justify-content: center;
-    }
-    .why-grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 90%);
-    }
-    .modes-flex{
-        flex-wrap: wrap;
-        padding: 0 !important;
-    }
-    .modes-card{
-        flex-direction: row;
-    }
-    .mockup-img img{
-        width: 100%;
-    }
-    .numb-flex{
-        flex-wrap: wrap !important;
-    }
-    .numb-img{
-        width: 90%;
-    }
-    footer{
-        flex-direction: column;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Swiper */

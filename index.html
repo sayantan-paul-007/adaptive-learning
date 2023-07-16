@@ -1,558 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
-    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Adaptive Learning</title>
-    <title>Document</title>
-</head>
-<body>
-<!-- Navbar -->
-<nav class="navbar body-font">
-    <div class="nav-left">
-      <img
-        src="./assets/logo1.jpeg"
-        height="64"
-        alt="Adaptive Learning Logo"
-      />
-    </div>
-    <div class="nav-center">
-      <ul>
-        <li>dsfkjslfdjs</li>
-        <li>dsfkjslfdjs</li>
-        <li>dsfkjslfdjs</li>
-        <li>dsfkjslfdjs</li>
-        <li>dsfkjslfdjs</li>
-      </ul>
-    </div>
-    <div class="nav-right"><button class="fw-600">Login</button></div>
-    <div class="ham-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 17h18M3 12h18M3 7h18"/></svg>
-    </div>
-    
-  </nav>
-  <div class="ham-list">
-        <ul>
-            <li><svg xmlns="http://www.w3.org/2000/svg" class="ham-close" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 7l10 10M7 17L17 7"/></svg></li>
-            <li>dsfkjslfdjs</li>
-            <li>dsfkjslfdjs</li>
-            <li>dsfkjslfdjs</li>
-            <li>dsfkjslfdjs</li>
-            <li>dsfkjslfdjs</li>
-          </ul>
-    </div>
-    <!-- Banner -->
-    <section class="banner">
-        <img src="https://img.freepik.com/free-vector/flat-horizontal-sale-banner-template-back-school-season_23-2150555831.jpg?w=826&t=st=1688107276~exp=1688107876~hmac=d51276854ec4c440210700a8f02d29f0c65af7d0b763f119d89c86065909599b" class="banner-image" alt="" />
-      </section>
-      <!-- About Us -->
-      <section class="about-us">
-        <h2 class="head-font title fw-900 text-center">about us</h2>
-        <div class="about-flex">
-          <div class="about-text">
-            <p class="body-font">Adaptive Learning is an interactive video-based platform focused on rendering academic concepts with hands-on and result oriented approaches.Adaptive learning is an online initiative to bring mainstream education to the masses and emancipate them with the understanding of the current happenings and the causes that matter at the same time with the help of technology. We Believe the future is technology-driven and hence education has to keep pace with the dynamic tech world. With our philosophy of Three E’s and commitment to the cause of education, We aim to ENGAGE, EDUCATE AND ENLIGHTEN students holistically in a non-disruptive and cordial online environment. We aim to blend traditional teaching keeping pace with the changing world bringing to you, the best of both worlds.</p>
-             
-            <div class="pt-4 about-button">
-              <button class="about-btn fw-600 body-font text-white">
-          Know More
-         </button>
-          </div>
-          </div>
-          <div class="about-img">
-                    <img src="https://img.freepik.com/free-vector/teamwork-concept-landing-page_52683-20165.jpg?w=740&t=st=1688108899~exp=1688109499~hmac=046dc60ebd525ae3c9826c8a5af0d60d4ef805fd6304537f557e1d55d5e92b2f" height="400" alt="logo">
-                </div>
-          
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="navbar body-font">
+        <div class="nav-left">
+          <img src="./assets/logo1.jpeg" height="72" alt="Logo" />
         </div>
-        <!-- <div class="row  align-items-center justify-content-center flex-lg-row-reverse">
-            <div class="col-md-5 px-3">
-                <div class="about-img">
-                    <img src="https://img.freepik.com/free-vector/teamwork-concept-landing-page_52683-20165.jpg?w=740&t=st=1688108899~exp=1688109499~hmac=046dc60ebd525ae3c9826c8a5af0d60d4ef805fd6304537f557e1d55d5e92b2f" height="400" alt="logo">
-                </div>
-            </div>
-            <div class="col-md-6 px-3">
-                <p class="body-font">Adaptive Learning is an interactive video-based platform focused on rendering academic concepts with hands-on and result oriented approaches.Adaptive learning is an online initiative to bring mainstream education to the masses and emancipate them with the understanding of the current happenings and the causes that matter at the same time with the help of technology. We Believe the future is technology-driven and hence education has to keep pace with the dynamic tech world. With our philosophy of Three E’s and commitment to the cause of education, We aim to ENGAGE, EDUCATE AND ENLIGHTEN students holistically in a non-disruptive and cordial online environment. We aim to blend traditional teaching keeping pace with the changing world bringing to you, the best of both worlds.</p>
-                <div class="pt-4">
-                    <button class="about-btn fw-600 body-font text-white">
-                Know More
-               </button>
-                </div>
-               
-            </div>
-        </div> -->
-      </section>
-      <!-- Why Adaptive Learning -->
-      <section class="why-adaptive">
-        <h3 class="head-font title fw-900 text-center">Why Adaptive Learning?</h3>
-        <p class="body-font text-center pb-4">Adaptive Learning not only provides high res but also study materials so that one can excel in their life</p>
-        <div class="why-grid">
-          <div class="why-card shadow row p-3" data-aos="zoom-in"  data-aos-duration="1000" >
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-            <h4 class="head-font fw-700 text-center pt-2">Flexible Learning Environment</h4>
-            <p class="body-font py-2">
-              Enjoy the convenience of learning from anywhere, at any time. Our online educational platform provides a flexible and accessible environment, allowing you to study at your own pace and fit your education around your schedule.
-            </p>
-          </div>
-          <div class="why-card shadow row p-3" data-aos="zoom-in"  data-aos-duration="1500" data-aos-delay="50">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-            <h4 class="head-font fw-700 text-center pt-2">Flexible Learning Environment</h4>
-            <p class="body-font py-2">
-              Enjoy the convenience of learning from anywhere, at any time. Our online educational platform provides a flexible and accessible environment, allowing you to study at your own pace and fit your education around your schedule.
-            </p>
-          </div>
-          <div class="why-card shadow row p-3" data-aos="zoom-in"  data-aos-duration="2000" data-aos-delay="100">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-            <h4 class="head-font fw-700 text-center pt-2">Flexible Learning Environment</h4>
-            <p class="body-font py-2">
-              Enjoy the convenience of learning from anywhere, at any time. Our online educational platform provides a flexible and accessible environment, allowing you to study at your own pace and fit your education around your schedule.
-            </p>
-          </div>
-          <div class="why-card shadow row p-3" data-aos="zoom-in"  data-aos-duration="2500" data-aos-delay="150">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-            <h4 class="head-font fw-700 text-center pt-2">Flexible Learning Environment</h4>
-            <p class="body-font py-2">
-              Enjoy the convenience of learning from anywhere, at any time. Our online educational platform provides a flexible and accessible environment, allowing you to study at your own pace and fit your education around your schedule.
-            </p>
-          </div>
-          <div class="why-card shadow row p-3" data-aos="zoom-in"  data-aos-duration="3000" data-aos-delay="200">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-            <h4 class="head-font fw-700 text-center pt-2">Flexible Learning Environment</h4>
-            <p class="body-font py-2">
-              Enjoy the convenience of learning from anywhere, at any time. Our online educational platform provides a flexible and accessible environment, allowing you to study at your own pace and fit your education around your schedule.
-            </p>
-          </div>
-          <div class="why-card shadow row p-3" data-aos="zoom-in"  data-aos-duration="3500">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-            <h4 class="head-font fw-700 text-center pt-2">Flexible Learning Environment</h4>
-            <p class="body-font py-2">
-              Enjoy the convenience of learning from anywhere, at any time. Our online educational platform provides a flexible and accessible environment, allowing you to study at your own pace and fit your education around your schedule.
-            </p>
-          </div>
+        <div class="nav-center">
+          <a href="" class="nav-links">Home</a>
+          <a href="" class="nav-links">About Us</a>
+          <a href="" class="nav-links">Freebies</a>
+          <a href="" class="nav-links">Blog</a>
+          <a href="" class="nav-links">Contact Us</a>
+        </div>
+        <div class="nav-right">
+          <button class="nav-btn fw-600">Login</button>
+        </div>
+      </div>
+    </nav>
+    <!-- Banner Section -->
+    <div class="banner-section">
+      <img src="./assets/box-f2.jpg" alt="" />
+    </div>
+    <!-- Metabox -->
+    <div class="metabox body-font">
+      <div class="metabox-content">bmbm</div>
+      <div class="metabox-content">lkjlj</div>
+      <div class="metabox-content">kjlkj</div>
+      <div class="metabox-content">dsdkl;f</div>
+    </div>
+    <!-- About Us -->
+    <section class="about-us">
+      <h2 class="head-font title text-uppercase fw-900 text-center">
+        about us
+      </h2>
+      <div class="about-flex">
+        <div class="about-text body-font">
+          <p>
+            Adaptive Learning is an interactive video-based platform focused on
+            rendering academic concepts with hands-on and result oriented
+            approaches.Adaptive learning is an online initiative to bring
+            mainstream education to the masses and emancipate them with the
+            understanding of the current happenings and the causes that matter
+            at the same time with the help of technology. We Believe the future
+            is technology-driven and hence education has to keep pace with the
+            dynamic tech world. With our philosophy of Three E’s and commitment
+            to the cause of education, We aim to ENGAGE, EDUCATE AND ENLIGHTEN
+            students holistically in a non-disruptive and cordial online
+            environment. We aim to blend traditional teaching keeping pace with
+            the changing world bringing to you, the best of both worlds.
+          </p>
+          <button class="about-btn">Know More -></button>
+        </div>
+        <div class="about-img">
+          <img src="./assets/box-f1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Youtube -->
+    <section class="youtube">
+      <h2 class="head-font title text-uppercase fw-900 text-center">Youtube</h2>
+      <p class="head-font sub-title text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
+        tempore facere at non labore soluta ipsam dolor, cupiditate dicta?
+      </p>
+      <div class="youtube-flex">
+        <div class="yt-card">
+          <img src="./assets/yt-thumbnail.png" alt="" />
+        </div>
+        <div class="yt-card">
+          <img src="./assets/yt-thumbnail.png" alt="" />
+        </div>
+        <div class="yt-card">
+          <img src="./assets/yt-thumbnail.png" alt="" />
+        </div>
+      </div>
+      <div class="yt-button">
+        <button class="about-btn">View all videos</button>
+      </div>
+    </section>
+    <section class="why-adaptive">
+      <h2 class="head-font title text-uppercase fw-900 text-center">
+        Why Adaptive Learning
+      </h2>
+      <p class="head-font sub-title text-center">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ipsam
+        ex vero repellat incidunt temporibus rerum provident! Natus quam ipsa
+        est autem quo quas atque?
+      </p>
+      <div class="grid-3">
+        <div class="grid-card shadow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="height: 64px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"
+            />
+          </svg>
+          <h4 class="head-font fw-700 text-center pt-2">
+            Flexible Learning Environment
+          </h4>
+          <p class="body-font py-2">
+            Enjoy the convenience of learning from anywhere, at any time. Our
+            online educational platform provides a flexible and accessible
+            environment, allowing you to study at your own pace and fit your
+            education around your schedule.
+          </p>
+        </div>
+        <div class="grid-card shadow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="height: 64px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"
+            />
+          </svg>
+          <h4 class="head-font fw-700 text-center pt-2">
+            Flexible Learning Environment
+          </h4>
+          <p class="body-font py-2">
+            Enjoy the convenience of learning from anywhere, at any time. Our
+            online educational platform provides a flexible and accessible
+            environment, allowing you to study at your own pace and fit your
+            education around your schedule.
+          </p>
+        </div>
+        <div class="grid-card shadow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="height: 64px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"
+            />
+          </svg>
+          <h4 class="head-font fw-700 text-center pt-2">
+            Flexible Learning Environment
+          </h4>
+          <p class="body-font py-2">
+            Enjoy the convenience of learning from anywhere, at any time. Our
+            online educational platform provides a flexible and accessible
+            environment, allowing you to study at your own pace and fit your
+            education around your schedule.
+          </p>
+        </div>
+        <div class="grid-card shadow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="height: 64px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"
+            />
+          </svg>
+          <h4 class="head-font fw-700 text-center pt-2">
+            Flexible Learning Environment
+          </h4>
+          <p class="body-font py-2">
+            Enjoy the convenience of learning from anywhere, at any time. Our
+            online educational platform provides a flexible and accessible
+            environment, allowing you to study at your own pace and fit your
+            education around your schedule.
+          </p>
+        </div>
+        <div class="grid-card shadow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="height: 64px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"
+            />
+          </svg>
+          <h4 class="head-font fw-700 text-center pt-2">
+            Flexible Learning Environment
+          </h4>
+          <p class="body-font py-2">
+            Enjoy the convenience of learning from anywhere, at any time. Our
+            online educational platform provides a flexible and accessible
+            environment, allowing you to study at your own pace and fit your
+            education around your schedule.
+          </p>
+        </div>
+        <div class="grid-card shadow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="height: 64px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"
+            />
+          </svg>
+          <h4 class="head-font fw-700 text-center pt-2">
+            Flexible Learning Environment
+          </h4>
+          <p class="body-font py-2">
+            Enjoy the convenience of learning from anywhere, at any time. Our
+            online educational platform provides a flexible and accessible
+            environment, allowing you to study at your own pace and fit your
+            education around your schedule.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="our-modes-of-learning">
+        <h2 class="head-font title text-uppercase fw-900 text-center">Our modes of learning</h2>
+      <p class="head-font sub-title text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
+        tempore facere at non labore soluta ipsam dolor, cupiditate dicta?
+      </p>
+      <div class="about-flex">
         
+      </div>
+    </section>
+    <section class="testimonial">
+        <h2 class="head-font title text-uppercase fw-900 text-center">Testimonial</h2>
+        <p class="head-font sub-title text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
+          tempore facere at non labore soluta ipsam dolor, cupiditate dicta?
+        </p>
+       <div class="testimonial-flex">
+        <div class="testimonial-card shadow">
+            <div class="test-image">
+                 <img src="https://img.freepik.com/free-photo/handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair_186202-8527.jpg?w=740&t=st=1689528843~exp=1689529443~hmac=10813ebe03ef325dc9bce18af1a0287cde52315673288340347685569af427f3" style="width: 80px !important;"  alt=""> 
+            </div>
+            <q class="body-font test-text">
+                I recently took the Adaptive Learning online e-learning course and it was the best course I have ever taken. The quality of the content was outstanding and the handwritten notes were incredibly helpful. I was able to apply the knowledge I gained from the course to my commerce studies and it was invaluable. I highly recommend this course to anyone looking to further their knowledge in the field of commerce.
+            </q>
+            <p class="test-user head-font text-center fw-800">
+                Alexander Cross
+            </p>
         </div>
-        <!-- <div class="why-flex">
-        <div class="row justify-content-center  ">
-          <div class="col-md-4 p-3">
-            
-            <div class="why-card shadow row p-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-              <h4 class="head-font fw-700 text-center pt-2">Flexible Learning Environment</h4>
-              <p class="body-font py-2">
-                Enjoy the convenience of learning from anywhere, at any time. Our online educational platform provides a flexible and accessible environment, allowing you to study at your own pace and fit your education around your schedule.
-              </p>
+        <div class="testimonial-card shadow">
+            <div class="test-image">
+                 <img src="https://img.freepik.com/free-photo/handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair_186202-8527.jpg?w=740&t=st=1689528843~exp=1689529443~hmac=10813ebe03ef325dc9bce18af1a0287cde52315673288340347685569af427f3" style="width: 80px !important;"  alt=""> 
             </div>
-          </div>
-          <div class="col-md-4 p-3">
-            <div class="why-card shadow row p-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-              <h4 class="head-font fw-700 text-center pt-2">Expert Instructors</h4>
-              <p class="body-font py-2">
-                Learn from industry experts and experienced educators who bring their knowledge and expertise to the online classroom. Our instructors are passionate about teaching and are committed to helping you succeed in your educational journey.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 p-3">
-            <div class="why-card shadow row p-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-              <h4 class="head-font fw-700 text-center pt-2">Wide Range of Course Offerings</h4>
-              <p class="body-font py-2">
-                Explore our diverse catalog of online courses, covering various subjects and disciplines. Whether you're looking to develop new skills or advance in your career, we offer a comprehensive selection of courses designed to meet your specific needs and interests.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 p-3">
-
-            <div class="why-card shadow row p-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-              <h4 class="head-font fw-700 text-center pt-2">Interactive Learning Experience	</h4>
-              <p class="body-font py-2">
-                Engage in interactive and immersive learning experiences through our online platform. We utilize advanced technologies, multimedia resources, and collaborative tools to ensure an engaging and dynamic virtual classroom environment.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 p-3">
-            <div class="why-card shadow row p-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-              <h4 class="head-font fw-700 text-center pt-2">Robust Learning Resources</h4>
-              <p class="body-font py-2">
-                Access a wealth of learning resources at your fingertips. Our online educational website provides a vast collection of digital materials, including e-books, videos, quizzes, and interactive tutorials, to support and enhance your learning process.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 p-3">
-            <div class="why-card shadow row p-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="72" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 2H17a2.5 2.5 0 0 1 2.5 2.5v6.813a6.5 6.5 0 0 0-8.187 8.187H4.5a1 1 0 0 0 1 1h6.232A6.518 6.518 0 0 0 12.81 22H5.5A2.5 2.5 0 0 1 3 19.5v-15A2.5 2.5 0 0 1 5.5 2ZM7 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H7Zm16 12.5a5.5 5.5 0 1 0-11 0a5.5 5.5 0 0 0 11 0Zm-6.086-2.403l2.806 1.84a.609.609 0 0 1 .28.52a.654.654 0 0 1-.072.299a.574.574 0 0 1-.198.226l-2.807 1.915a.635.635 0 0 1-.158.077a.551.551 0 0 1-.395-.023a.686.686 0 0 1-.193-.135a.72.72 0 0 1-.13-.2a.613.613 0 0 1-.047-.237v-3.758a.622.622 0 0 1 .367-.57a.552.552 0 0 1 .547.045Z"/></svg>
-              <h4 class="head-font fw-700 text-center pt-2">Supportive Online Community</h4>
-              <p class="body-font py-2">
-                Connect with fellow learners through our vibrant online community. Engage in discussions, participate in group projects, and collaborate with peers from around the world, fostering a supportive and enriching learning network.
-              </p>
-            </div>
-          </div>
+            <q class="body-font test-text">
+                I recently took the Adaptive Learning online e-learning course and it was the best course I have ever taken. The quality of the content was outstanding and the handwritten notes were incredibly helpful. I was able to apply the knowledge I gained from the course to my commerce studies and it was invaluable. I highly recommend this course to anyone looking to further their knowledge in the field of commerce.
+            </q>
+            <p class="test-user head-font text-center fw-800">
+                Alexander Cross
+            </p>
         </div>
-      </div> -->
-      </section>
-      <!-- Modes of Learning -->
-      <section class="modes-learning">
-        <h2 class="head-font title fw-900 text-center">Modes of Learning</h2>
-        <div class="modes-flex">
-          <div class="mockup-img">
-            <img src="./assets/mockup.png" class="banner-image" alt="">
-          </div>
-         
-            <div class="card-grid">
-              <div class="mode-card shadow">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg>
-              <p class="card-head fw-700 ">YouTube</p>
-              </div>
-              <div class="mode-card shadow">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg>
-              <p class="card-head fw-700 ">Pen Drive</p>
-              </div>
-              <div class="mode-card shadow">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg>
-              <p class="card-head fw-700 ">YouTube</p>
-              </div>
-              <div class="mode-card shadow">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg>
-              <p class="card-head fw-700 ">Google Drive</p>
-              </div>
+        <div class="testimonial-card shadow">
+            <div class="test-image">
+                 <img src="https://img.freepik.com/free-photo/handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair_186202-8527.jpg?w=740&t=st=1689528843~exp=1689529443~hmac=10813ebe03ef325dc9bce18af1a0287cde52315673288340347685569af427f3" style="width: 80px !important;"  alt=""> 
             </div>
-         
-        </div>
-        <!-- <div class="modes-flex2">
-
-         <div class="row" style="align-items: center;">
-          <div class="col-md-7">
-            <img src="./assets/mockup.png" class="banner-image" alt="">
-          </div>
-          <div class="col-md-5 pt-4 d-flex align-items-center justify-content-center">
-          <div class="card-grid">
-            <div class="mode-card shadow">
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg>
-            <p class="card-head fw-700 ">YouTube</p>
-            </div>
-            <div class="mode-card shadow">
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg>
-            <p class="card-head fw-700 ">Pen Drive</p>
-            </div>
-            <div class="mode-card shadow">
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg>
-            <p class="card-head fw-700 ">YouTube</p>
-            </div>
-            <div class="mode-card shadow">
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg>
-            <p class="card-head fw-700 ">Google Drive</p>
-            </div>
-          </div>
-          </div>
-          <div class="col-md-3">
-            <div class="mode-card-flex">
-              <div class="mode-card shadow row align-items-center p-3">
-                <div class="col-4"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg></div><div class="col-8">
-                <h4 class="head-font fw-700">YouTube</h4>
-              </div>
-              </div>
-              <div class="mode-card shadow row align-items-center p-3">
-                <div class="col-4"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 256 229"><path fill="#0066DA" d="m19.354 196.034l11.29 19.5c2.346 4.106 5.718 7.332 9.677 9.678c11.34-14.394 19.232-25.44 23.68-33.137c4.513-7.811 10.06-20.03 16.641-36.655c-17.736-2.335-31.176-3.502-40.32-3.502c-8.777 0-22.217 1.167-40.322 3.502c0 4.545 1.173 9.09 3.519 13.196l15.835 27.418Z"/><path fill="#EA4335" d="M215.681 225.212c3.96-2.346 7.332-5.572 9.677-9.677l4.692-8.064l22.434-38.855a26.566 26.566 0 0 0 3.518-13.196c-18.21-2.335-31.625-3.502-40.247-3.502c-9.266 0-22.682 1.167-40.248 3.502c6.503 16.716 11.977 28.935 16.422 36.655c4.483 7.789 12.4 18.834 23.752 33.137Z"/><path fill="#00832D" d="M128.001 73.311c13.12-15.845 22.162-28.064 27.125-36.655c3.997-6.918 8.396-17.964 13.196-33.137C164.363 1.173 159.818 0 155.126 0h-54.25C96.184 0 91.64 1.32 87.68 3.519c6.106 17.402 11.288 29.787 15.544 37.154c4.704 8.142 12.963 19.021 24.777 32.638Z"/><path fill="#2684FC" d="M175.36 155.42H80.642l-40.32 69.792c3.958 2.346 8.503 3.519 13.195 3.519h148.968c4.692 0 9.238-1.32 13.196-3.52l-40.32-69.791Z"/><path fill="#00AC47" d="M128.001 73.311L87.681 3.52c-3.96 2.346-7.332 5.571-9.678 9.677L3.519 142.224A26.567 26.567 0 0 0 0 155.42h80.642l47.36-82.109Z"/><path fill="#FFBA00" d="m215.242 77.71l-37.243-64.514c-2.345-4.106-5.718-7.331-9.677-9.677l-40.32 69.792l47.358 82.109h80.496c0-4.546-1.173-9.09-3.519-13.196L215.242 77.71Z"/></svg></div><div class="col-8">
-                <h4 class="head-font fw-700">Google Drive   </h4>
-              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/mockup.png" class="banner-image" alt="">
-          </div>
-          <div class="col-md-3">
-            <div class="mode-card-flex">
-              <div class="mode-card shadow row align-items-center p-3">
-                <div class="col-4"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg></div><div class="col-8">
-                <h4 class="head-font fw-700">YouTube</h4>
-              </div>
-              </div>
-              <div class="mode-card shadow row align-items-center p-3">
-                <div class="col-4"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 256 229"><path fill="#0066DA" d="m19.354 196.034l11.29 19.5c2.346 4.106 5.718 7.332 9.677 9.678c11.34-14.394 19.232-25.44 23.68-33.137c4.513-7.811 10.06-20.03 16.641-36.655c-17.736-2.335-31.176-3.502-40.32-3.502c-8.777 0-22.217 1.167-40.322 3.502c0 4.545 1.173 9.09 3.519 13.196l15.835 27.418Z"/><path fill="#EA4335" d="M215.681 225.212c3.96-2.346 7.332-5.572 9.677-9.677l4.692-8.064l22.434-38.855a26.566 26.566 0 0 0 3.518-13.196c-18.21-2.335-31.625-3.502-40.247-3.502c-9.266 0-22.682 1.167-40.248 3.502c6.503 16.716 11.977 28.935 16.422 36.655c4.483 7.789 12.4 18.834 23.752 33.137Z"/><path fill="#00832D" d="M128.001 73.311c13.12-15.845 22.162-28.064 27.125-36.655c3.997-6.918 8.396-17.964 13.196-33.137C164.363 1.173 159.818 0 155.126 0h-54.25C96.184 0 91.64 1.32 87.68 3.519c6.106 17.402 11.288 29.787 15.544 37.154c4.704 8.142 12.963 19.021 24.777 32.638Z"/><path fill="#2684FC" d="M175.36 155.42H80.642l-40.32 69.792c3.958 2.346 8.503 3.519 13.195 3.519h148.968c4.692 0 9.238-1.32 13.196-3.52l-40.32-69.791Z"/><path fill="#00AC47" d="M128.001 73.311L87.681 3.52c-3.96 2.346-7.332 5.571-9.678 9.677L3.519 142.224A26.567 26.567 0 0 0 0 155.42h80.642l47.36-82.109Z"/><path fill="#FFBA00" d="m215.242 77.71l-37.243-64.514c-2.345-4.106-5.718-7.331-9.677-9.677l-40.32 69.792l47.358 82.109h80.496c0-4.546-1.173-9.09-3.519-13.196L215.242 77.71Z"/></svg></div><div class="col-8">
-                <h4 class="head-font fw-700">Google Drive   </h4>
-              </div>
-              </div>
-            </div>
-          </div>
-         </div>
-        </div> -->
-      </section>
-      <!-- Adaptive in numbers -->
-      <section class="adap-in-num">
-        <h2 class="head-font title fw-900 text-center">Adaptive in numbers</h2>
-        <div class="numb-flex">
-          <div class="numb-img">
-            <img src="./assets/numbers (2).png"  data-aos="fade-right"  data-aos-duration="2000" class="banner-image" alt="">
-          </div>
-            <div class="num-grid">
-              <div class="num-card shadow"  data-aos="fade-left"  data-aos-duration="2000" >
-                <svg xmlns="http://www.w3.org/2000/svg" class="py-1" style="height: 72px; " viewBox="0 0 333333 333333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="M329930 100020s-3254-22976-13269-33065c-12691-13269-26901-13354-33397-14124-46609-3396-116614-3396-116614-3396h-122s-69973 0-116608 3396c-6522 793-20712 848-33397 14124C6501 77044 3316 100020 3316 100020S-1 126982-1 154001v25265c0 26962 3315 53979 3315 53979s3254 22976 13207 33082c12685 13269 29356 12838 36798 14254 26685 2547 113354 3315 113354 3315s70065-124 116675-3457c6522-770 20706-848 33397-14124 10021-10089 13269-33090 13269-33090s3319-26962 3319-53979v-25263c-67-26962-3384-53979-3384-53979l-18 18-2-2zM132123 209917v-93681l90046 46997-90046 46684z" fill="red" /></svg>
-                <h4 class="counter head-font text-center fw-700 " data-target="3000000"></h4>
-                <p class="body-font text-center">Views on YouTube</p>
-              </div>
-              <div class="num-card shadow"  data-aos="fade-left" data-aos-delay="250"  data-aos-duration="2000" >
-                   <svg xmlns="http://www.w3.org/2000/svg" class="py-1" style="height: 72px; "  viewBox="0 0 128 128"><path fill="#82AEC0" d="M32.04 123.67a3.119 3.119 0 0 1-1.55-3.8l4.02-11.77l7.87 5.31l-6.36 9.24a3.133 3.133 0 0 1-3.98 1.02zm63.32 0c1.39-.7 2.06-2.32 1.55-3.8l-4.07-11.91l-8.29 4.77l6.83 9.92a3.133 3.133 0 0 0 3.98 1.02z"/><path fill="#2F7889" d="m34.51 108.1l-2.05 6c1.27-.73 2.93-.66 4.25-.01c1.32.65 2.33 1.79 3.1 3.05l2.33-3.38c0-.14-7.63-5.66-7.63-5.66zm58.36-.15l2.22 6.6c-1.27-.73-2.79-.71-4.12-.06c-1.32.65-2.33 1.79-3.1 3.05l-3.05-4.43l8.05-5.16z"/><circle cx="63.7" cy="73.93" r="42.01" fill="#FFEFA1"/><circle cx="63.7" cy="70.22" r="49.36" fill="#CC2929"/><circle cx="63.7" cy="72.7" r="46.4" fill="#FF4638"/><circle cx="63.7" cy="72.7" r="40.03" fill="#FAFAFA"/><circle cx="64" cy="72.7" r="4.45" fill="#563428"/><path fill="#B2947C" d="M63.7 42.57c-.81 0-1.47-.66-1.47-1.47v-4.4c0-.81.66-1.47 1.47-1.47c.81 0 1.47.66 1.47 1.47v4.4c0 .81-.66 1.47-1.47 1.47zm0 67.59c-.81 0-1.47-.66-1.47-1.47v-4.4c0-.81.66-1.47 1.47-1.47c.81 0 1.47.66 1.47 1.47v4.4c0 .81-.66 1.47-1.47 1.47zm35.99-36h-4.4c-.81 0-1.47-.66-1.47-1.47c0-.81.66-1.47 1.47-1.47h4.4c.81 0 1.47.66 1.47 1.47c0 .82-.66 1.47-1.47 1.47zm-67.58 0h-4.4c-.81 0-1.47-.66-1.47-1.47c0-.81.66-1.47 1.47-1.47h4.4c.81 0 1.47.66 1.47 1.47c0 .82-.66 1.47-1.47 1.47z"/><path fill="#B2947C" d="M63.7 42.57c-.81 0-1.47-.66-1.47-1.47v-4.4c0-.81.66-1.47 1.47-1.47c.81 0 1.47.66 1.47 1.47v4.4c0 .81-.66 1.47-1.47 1.47zm0 67.59c-.81 0-1.47-.66-1.47-1.47v-4.4c0-.81.66-1.47 1.47-1.47c.81 0 1.47.66 1.47 1.47v4.4c0 .81-.66 1.47-1.47 1.47zM46.63 46.07l-2.2-3.81c-.41-.7-.17-1.6.54-2.01c.7-.41 1.6-.17 2.01.54l2.2 3.81c.41.7.17 1.6-.54 2.01c-.7.4-1.6.16-2.01-.54zm33.8 58.53l-2.2-3.81c-.41-.7-.16-1.6.54-2.01c.7-.41 1.6-.16 2.01.54l2.2 3.81c.41.7.16 1.6-.54 2.01c-.71.4-1.61.16-2.01-.54z"/><path fill="#B2947C" d="m46.63 46.07l-2.2-3.81c-.41-.7-.17-1.6.54-2.01c.7-.41 1.6-.17 2.01.54l2.2 3.81c.41.7.17 1.6-.54 2.01c-.7.4-1.6.16-2.01-.54zm33.8 58.53l-2.2-3.81c-.41-.7-.16-1.6.54-2.01c.7-.41 1.6-.16 2.01.54l2.2 3.81c.41.7.16 1.6-.54 2.01c-.71.4-1.61.16-2.01-.54zM35.61 58.17l-3.81-2.2c-.7-.41-.94-1.3-.54-2.01c.41-.7 1.3-.94 2.01-.54l3.81 2.2c.7.41.94 1.3.54 2.01c-.41.71-1.31.95-2.01.54zm58.53 33.79l-3.81-2.2c-.7-.41-.94-1.3-.54-2.01c.41-.7 1.3-.94 2.01-.54l3.81 2.2c.7.41.94 1.3.54 2.01c-.41.71-1.31.95-2.01.54zM78.76 46.61c-.7-.41-.94-1.3-.54-2.01l2.2-3.81c.41-.7 1.3-.94 2.01-.54c.7.41.94 1.3.54 2.01l-2.2 3.81c-.41.7-1.3.94-2.01.54zm-33.79 58.53c-.7-.41-.94-1.3-.54-2.01l2.2-3.81c.41-.7 1.3-.94 2.01-.54c.7.41.94 1.3.54 2.01l-2.2 3.81c-.41.7-1.31.94-2.01.54zm44.82-47.51c-.41-.7-.17-1.6.54-2.01l3.81-2.2c.7-.41 1.6-.16 2.01.54c.41.7.16 1.6-.54 2.01l-3.81 2.2c-.71.41-1.61.17-2.01-.54zm-58.53 33.8c-.41-.7-.16-1.6.54-2.01l3.81-2.2c.7-.41 1.6-.16 2.01.54c.41.7.16 1.6-.54 2.01l-3.81 2.2c-.71.4-1.61.16-2.01-.54z"/><path fill="none" stroke="#563428" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5" d="M47.49 63.49L63.7 72.7"/><path fill="none" stroke="#563428" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5" d="M86.87 59.41L64.44 72.7"/><path fill="#82AEC0" d="m91.99 32.49l-4.14-2.71l14.09-24.96l4.3 2.43z"/><path fill="#CC2929" d="M111.17 35.21c1.23.36 2.55-.32 2.93-1.54c3.24-10.35-.96-21.61-11.12-26.84c-10.23-5.27-21.34-1.81-27.81 7.02c-.73.99-.56 2.38.36 3.19c2.09 1.85 6.73 5.33 15.98 10.01c9.77 4.94 16.47 7.22 19.66 8.16z"/><path fill="#82AEC0" d="M105.85 10.3s2.61-3.33-1.18-5.44c-2.95-1.64-4.82 1.95-4.82 1.95c-.65 1.19 5.55 4.31 6 3.49zM35.63 32.52L21.36 7.25l4.31-2.43l13.86 24.56z"/><path fill="#CC2929" d="M16.83 35.21c-1.23.36-2.55-.32-2.93-1.54c-3.24-10.35.96-21.61 11.12-26.84c10.23-5.27 21.34-1.81 27.81 7.02c.73.99.56 2.38-.36 3.19c-2.09 1.85-6.73 5.33-15.98 10.01c-9.77 4.94-16.47 7.22-19.66 8.16z"/><path fill="#82AEC0" d="M22.15 10.3s-2.61-3.33 1.18-5.44c2.95-1.64 4.82 1.95 4.82 1.95c.65 1.19-5.55 4.31-6 3.49z"/><path fill="none" stroke="#82AEC0" stroke-miterlimit="10" stroke-width="3.706" d="M63.7 23.22V9.5"/><path fill="#82AEC0" d="M63.76 14.38c-3.92 0-7.85-1.5-7.85-1.5V9.91s3.65-1.63 8.04-1.63s7.65 1.63 7.65 1.63v2.97c.01.01-3.91 1.5-7.84 1.5z"/><path fill="#94D1E0" d="M56.9 9.79c-.43.16-.47.75-.07.98c.58.33 1.27.67 1.51.63c3.3-.51 8.09-.26 11.4.24c.23.04.89-.52 1.36-.94c.26-.24.2-.65-.12-.8c-1.04-.47-3.39-1.31-7.03-1.31c-3.36 0-5.79.71-7.05 1.2z"/><path fill="#FF4638" d="M95.06 7.9c.31 1.06-.83 1.93-1.75 2.54a15.764 15.764 0 0 0-5.4 6.22c-.58 1.2-1.23 2.67-2.56 2.86c-.53.07-1.05-.09-1.55-.27c-.77-.28-1.52-.6-2.25-.97c-.87-.44-1.76-1-2.16-1.89c-.52-1.17-.03-2.55.67-3.63c1.67-2.55 4.39-4.13 7.19-5.17c1.69-.63 6.97-2.56 7.81.31zm-68.93 8.43c.65 1.35 1.38 2.66 2.19 3.92c.99 1.54 2.14 3.26 1.72 5.04c-.49 2.04-2.75 3.02-4.74 3.7c-1.02.35-2.03.7-3.05 1.05c-.54.19-1.11.38-1.68.35c-.9-.04-1.71-.61-2.22-1.34c-.52-.73-.78-1.61-.98-2.48c-.75-3.35-.6-6.9.43-10.18c.6-1.88 1.54-3.86 3.67-4.01c2.59-.18 3.69 1.93 4.66 3.95z"/></svg>
-                                <h4 class="counter head-font text-center fw-700" data-target="232000"></h4>
-                                <p class="body-font text-center">Watch Hours</p>
-              </div>
-              <div class="num-card shadow"  data-aos="fade-left" data-aos-delay="750"  data-aos-duration="2000" >
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="py-2"  style="height: 80px;"  viewBox="0 0 32 32">
-                                    
-                  <path fill="#eaf6ff" d="M14.059 24.736c0 1.625-0.571 3.116-1.521 4.286h-0.001c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509h-0.001c-0.951-1.169-1.521-2.661-1.521-4.286 0-3.753 3.042-6.795 6.795-6.795s6.795 3.043 6.795 6.795z"/>
-                  <path fill="#eaf6ff" d="M31.531 24.736c0 1.625-0.571 3.116-1.521 4.286h-0.001c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509h-0.001c-0.951-1.169-1.521-2.661-1.521-4.286 0-3.753 3.043-6.795 6.795-6.795s6.795 3.043 6.795 6.795z"/>
-                  <path fill="#eaf6ff" d="M31.531 7.264c0 1.625-0.571 3.116-1.521 4.286h-0.001c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509h-0.001c-0.951-1.169-1.521-2.661-1.521-4.286 0-3.752 3.043-6.795 6.795-6.795s6.795 3.042 6.795 6.795z"/>
-                  <path fill="#eaf6ff" d="M14.059 7.264c0 3.753-3.042 6.795-6.795 6.795s-6.795-3.042-6.795-6.795c0-3.753 3.042-6.795 6.795-6.795s6.795 3.042 6.795 6.795z"/>
-                  <path fill="#ffe177" d="M12.537 29.022c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509l3.816-1.306h2.914z"/>
-                  <path fill="#ffd15b" d="M8.201 31.467c-0.306 0.043-0.619 0.064-0.938 0.064-2.127 0-4.027-0.978-5.273-2.509l3.816-1.306h1.875l-3.816 1.306c1.059 1.302 2.592 2.204 4.336 2.445z"/>
-                  <path fill="#aee69c" d="M30.009 29.022c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509l3.816-1.306h2.914z"/>
-                  <path fill="#89daa4" d="M25.674 31.467c-0.306 0.043-0.619 0.064-0.938 0.064-2.128 0-4.027-0.978-5.273-2.509l3.816-1.306h1.875l-3.816 1.306c1.059 1.302 2.592 2.204 4.336 2.445z"/>
-                  <path fill="#ea576b" d="M30.009 11.549c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509l3.816-1.306h2.914z"/>
-                  <path fill="#fd4755" d="M25.674 13.994c-0.306 0.043-0.619 0.064-0.938 0.064-2.128 0-4.027-0.978-5.273-2.509l3.816-1.306h1.875l-3.816 1.306c1.059 1.303 2.592 2.204 4.336 2.445z"/>
-                  <path fill="#8ac9fe" d="M12.537 11.549c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509l3.816-1.306h2.914z"/>
-                  <path fill="#60b7ff" d="M8.201 13.994c-0.306 0.043-0.619 0.064-0.938 0.064-2.127 0-4.027-0.978-5.273-2.509l3.816-1.306h1.875l-3.816 1.306c1.059 1.303 2.592 2.204 4.336 2.445z"/>
-                  <path fill="#ffcebf" d="M4.764 5.709v3.034c0 1.275 1.034 2.309 2.309 2.309h0.382c1.275 0 2.309-1.034 2.309-2.309v-3.034c0-0.391-0.317-0.707-0.707-0.707h-3.586c-0.391-0-0.707 0.317-0.707 0.707z"/>
-                  <path fill="#ffb09e" d="M7.889 11.010c-0.141 0.027-0.286 0.041-0.434 0.041h-0.381c-1.276 0-2.309-1.034-2.309-2.309v-3.033c0-0.391 0.317-0.707 0.707-0.707h1.25c-0.391 0-0.707 0.317-0.707 0.707v3.033c0 1.127 0.807 2.066 1.875 2.268z"/>
-                  <path fill="#68748f" d="M4.764 6.499h1.002c0.382 0 0.747-0.157 1.010-0.435l0.686-0.726 0.445 0.777c0.136 0.237 0.389 0.384 0.663 0.384h1.194v-1.56c0-0.947-0.768-1.714-1.714-1.714h-1.571c-0.947 0-1.714 0.768-1.714 1.714z"/>
-                  <path fill="#5d6980" d="M6.478 3.224h1.25c-0.947 0-1.714 0.768-1.714 1.714v1.537c-0.081 0.015-0.164 0.022-0.247 0.022h-1.003v-1.56c0-0.947 0.768-1.714 1.714-1.714z"/>
-                  <path fill="#ffcebf" d="M22.236 5.709v3.034c0 1.275 1.034 2.309 2.309 2.309h0.382c1.275 0 2.309-1.034 2.309-2.309v-3.034c0-0.391-0.317-0.707-0.707-0.707h-3.586c-0.391-0-0.707 0.317-0.707 0.707z"/>
-                  <path fill="#ffb09e" d="M25.361 11.010c-0.141 0.027-0.286 0.041-0.434 0.041h-0.381c-1.276 0-2.309-1.034-2.309-2.309v-3.033c0-0.391 0.317-0.707 0.707-0.707h1.25c-0.391 0-0.707 0.317-0.707 0.707v3.033c0 1.127 0.807 2.066 1.875 2.268z"/>
-                  <path fill="#68748f" d="M22.236 6.499h1.002c0.382 0 0.747-0.157 1.010-0.435l0.686-0.726 0.445 0.777c0.136 0.237 0.389 0.384 0.663 0.384h1.194v-1.56c0-0.947-0.767-1.714-1.714-1.714h-1.571c-0.947 0-1.714 0.768-1.714 1.714z"/>
-                  <path fill="#5d6980" d="M23.951 3.224h1.25c-0.947 0-1.714 0.768-1.714 1.714v1.537c-0.081 0.015-0.164 0.022-0.247 0.022h-1.003v-1.56c0-0.947 0.767-1.714 1.714-1.714z"/>
-                  <path fill="#ffcebf" d="M4.764 23.181v3.034c0 1.275 1.034 2.309 2.309 2.309h0.382c1.275 0 2.309-1.034 2.309-2.309v-3.034c0-0.391-0.317-0.707-0.707-0.707h-3.586c-0.391 0-0.707 0.317-0.707 0.707z"/>
-                  <path fill="#ffb09e" d="M7.889 28.483c-0.141 0.027-0.286 0.041-0.434 0.041h-0.381c-1.276 0-2.309-1.034-2.309-2.309v-3.033c0-0.391 0.317-0.707 0.707-0.707h1.25c-0.391 0-0.707 0.317-0.707 0.707v3.033c0 1.127 0.807 2.066 1.875 2.268z"/>
-                  <path fill="#68748f" d="M4.764 23.971h1.002c0.382 0 0.747-0.157 1.010-0.435l0.686-0.726 0.445 0.777c0.136 0.237 0.389 0.384 0.663 0.384h1.194v-1.56c0-0.947-0.768-1.714-1.714-1.714h-1.571c-0.947 0-1.714 0.767-1.714 1.714z"/>
-                  <path fill="#5d6980" d="M6.478 20.697h1.25c-0.947 0-1.714 0.767-1.714 1.714v1.538c-0.081 0.015-0.164 0.023-0.247 0.023h-1.003v-1.56c0-0.947 0.768-1.714 1.714-1.714z"/>
-                  <path fill="#ffcebf" d="M22.236 23.181v3.034c0 1.275 1.034 2.309 2.309 2.309h0.382c1.275 0 2.309-1.034 2.309-2.309v-3.034c0-0.391-0.317-0.707-0.707-0.707h-3.586c-0.391 0-0.707 0.317-0.707 0.707z"/>
-                  <path fill="#ffb09e" d="M25.361 28.483c-0.141 0.027-0.286 0.041-0.434 0.041h-0.381c-1.276 0-2.309-1.034-2.309-2.309v-3.033c0-0.391 0.317-0.707 0.707-0.707h1.25c-0.391 0-0.707 0.317-0.707 0.707v3.033c0 1.127 0.807 2.066 1.875 2.268z"/>
-                  <path fill="#68748f" d="M22.236 23.971h1.002c0.382 0 0.747-0.157 1.010-0.435l0.686-0.726 0.445 0.777c0.136 0.237 0.389 0.384 0.663 0.384h1.194v-1.56c0-0.947-0.767-1.714-1.714-1.714h-1.571c-0.947 0-1.714 0.767-1.714 1.714z"/>
-                  <path fill="#5d6980" d="M23.951 20.697h1.25c-0.947 0-1.714 0.767-1.714 1.714v1.538c-0.081 0.015-0.164 0.023-0.247 0.023h-1.003v-1.56c0-0.947 0.767-1.714 1.714-1.714z"/>
-                  <path fill="#000" d="M32 24.736c0-3.647-2.702-6.674-6.209-7.187l1.218-1.218c0.183-0.183 0.183-0.48 0-0.663s-0.48-0.183-0.663 0l-1.141 1.141v-2.298c3.37-0.215 6.211-2.825 6.713-6.157 0.039-0.256-0.138-0.495-0.394-0.533s-0.495 0.138-0.533 0.394c-0.152 1.005-0.547 1.96-1.148 2.782l-2.515-0.86c0.239-0.41 0.377-0.886 0.377-1.395l-0-3.803c0-1.204-0.979-2.183-2.183-2.183h-1.571c-1.204 0-2.183 0.979-2.183 2.183l-0 3.803c0 0.508 0.138 0.984 0.377 1.395l-2.515 0.861c-0.788-1.079-1.219-2.392-1.219-3.733 0-0 0-0 0-0 0-3.488 2.838-6.326 6.326-6.326 3.104 0 5.793 2.311 6.255 5.375 0.039 0.256 0.278 0.432 0.533 0.394s0.432-0.277 0.394-0.533c-0.528-3.505-3.64-6.173-7.182-6.173-3.647 0-6.674 2.702-7.187 6.209l-1.218-1.218c-0.183-0.183-0.48-0.183-0.663 0s-0.183 0.48-0 0.663l1.141 1.141h-2.298c-0.242-3.788-3.4-6.795-7.248-6.795-4.005 0-7.264 3.258-7.264 7.264 0 3.539 2.701 6.674 6.209 7.187l-1.218 1.218c-0.183 0.183-0.183 0.48-0 0.663s0.48 0.183 0.663 0l1.141-1.141v2.298c-1.225 0.078-2.406 0.463-3.441 1.125-0.218 0.14-0.282 0.429-0.142 0.648s0.429 0.282 0.647 0.142c1.015-0.65 2.192-0.993 3.404-0.993 3.488 0 6.326 2.838 6.326 6.326v0c0 1.341-0.431 2.654-1.219 3.733l-2.515-0.861c0.239-0.41 0.377-0.887 0.377-1.395l-0-3.803c0-1.204-0.979-2.183-2.183-2.183h-1.571c-1.204 0-2.183 0.979-2.183 2.183v3.803c0 0.508 0.138 0.984 0.377 1.395l-2.515 0.86c-0.788-1.079-1.219-2.392-1.219-3.733 0-1.491 0.529-2.938 1.488-4.076 0.167-0.198 0.142-0.494-0.056-0.661s-0.494-0.142-0.66 0.056c-1.102 1.307-1.709 2.969-1.709 4.68 0 3.962 3.286 7.264 7.264 7.264 3.575 0 6.667-2.692 7.185-6.211l1.22 1.22c0.221 0.183 0.442 0.183 0.663 0 0.183-0.183 0.183-0.48 0-0.663l-1.141-1.141h2.299c0.218 3.35 2.781 6.184 6.115 6.707 0.256 0.041 0.496-0.135 0.536-0.39s-0.135-0.496-0.39-0.536c-1.314-0.206-2.52-0.822-3.46-1.752l2.512-0.859c1.035 0.837 2.837 0.834 3.869 0l2.512 0.859c-0.958 0.949-2.189 1.568-3.531 1.762-0.256 0.037-0.434 0.275-0.397 0.531 0.034 0.233 0.234 0.402 0.463 0.402 3.5 0 6.281-3.304 6.281-7.193zM24.736 13.59c-1.682 0-3.268-0.659-4.448-1.828l2.514-0.86c1.035 0.837 2.837 0.834 3.869 0l2.514 0.86c-1.18 1.169-2.766 1.828-4.448 1.828zM22.705 6.968h0.534c0.64 0 1.22-0.356 1.603-0.849 0.221 0.454 0.669 0.849 1.201 0.849h0.725v1.774c0 2.449-4.063 2.449-4.063 0zM22.705 4.939c0-0.687 0.559-1.245 1.245-1.245h1.571c0.687 0 1.245 0.559 1.245 1.245v1.091h-0.725c-0.105 0-0.204-0.057-0.256-0.148l-0.445-0.777c-0.159-0.277-0.536-0.313-0.747-0.089l-0.686 0.726c-0.173 0.183-0.417 0.288-0.669 0.288h-0.534v-1.091zM7.264 0.938c3.488 0 6.326 2.838 6.326 6.326 0 1.395-0.454 2.685-1.222 3.732l-2.513-0.86c0.239-0.41 0.377-0.886 0.377-1.395l-0-3.803c0-1.204-0.979-2.183-2.183-2.183h-1.571c-1.204 0-2.183 0.979-2.183 2.183v3.803c0 0.508 0.138 0.984 0.377 1.395l-2.513 0.86c-0.768-1.047-1.222-2.338-1.222-3.732 0-3.488 2.838-6.326 6.326-6.326zM7.264 13.59c-1.731 0-3.301-0.699-4.444-1.829l2.51-0.859c1.035 0.837 2.837 0.834 3.869 0l2.51 0.859c-1.143 1.13-2.714 1.829-4.444 1.829zM5.766 6.968c0.64 0 1.22-0.356 1.603-0.849 0.221 0.454 0.669 0.849 1.201 0.849h0.725v1.774c0 2.449-4.063 2.449-4.063 0v-1.774zM5.233 6.030v-1.091c0-0.687 0.559-1.245 1.245-1.245h1.571c0.687 0 1.245 0.559 1.245 1.245v1.091h-0.725c-0.105 0-0.204-0.057-0.256-0.148l-0.445-0.777c-0.159-0.277-0.536-0.313-0.747-0.089l-0.686 0.726c-0.173 0.183-0.417 0.288-0.669 0.288h-0.534zM7.732 17.488v-2.298l1.141 1.141c0.221 0.183 0.442 0.183 0.663 0 0.183-0.183 0.183-0.48-0-0.663l-1.218-1.218c3.337-0.488 5.978-3.361 6.193-6.718h2.298l-1.141 1.141c-0.183 0.183-0.183 0.48 0 0.663 0.221 0.183 0.442 0.183 0.663 0l1.22-1.22c0.493 3.348 3.321 5.979 6.716 6.195v2.298l-1.141-1.141c-0.183-0.183-0.48-0.183-0.663 0s-0.183 0.48 0 0.663l1.218 1.218c-3.356 0.49-5.973 3.283-6.193 6.718h-2.298l1.141-1.141c0.183-0.183 0.183-0.48-0-0.663s-0.48-0.183-0.663 0l-1.218 1.218c-0.491-3.356-3.283-5.973-6.718-6.193zM5.232 26.214v-1.774h0.534c0.64 0 1.22-0.356 1.603-0.849 0.221 0.454 0.669 0.849 1.201 0.849h0.725v1.774c0 2.449-4.063 2.449-4.063 0zM5.233 22.411c0-0.687 0.559-1.245 1.245-1.245h1.571c0.687 0 1.245 0.559 1.245 1.245v1.091h-0.725c-0.105 0-0.204-0.057-0.256-0.148l-0.445-0.777c-0.159-0.277-0.536-0.313-0.747-0.089l-0.686 0.726c-0.173 0.183-0.417 0.288-0.669 0.288h-0.534v-1.091zM7.264 31.063c-1.682 0-3.268-0.659-4.448-1.828l2.514-0.86c1.035 0.837 2.837 0.834 3.869 0l2.514 0.86c-1.18 1.169-2.766 1.828-4.448 1.828zM24.736 18.41c3.488 0 6.326 2.838 6.326 6.326 0 1.341-0.431 2.654-1.219 3.733l-2.515-0.861c0.239-0.41 0.377-0.887 0.377-1.395l-0-3.803c0-1.204-0.979-2.183-2.183-2.183h-1.571c-1.204 0-2.183 0.979-2.183 2.183l-0 3.803c0 0.508 0.138 0.984 0.377 1.395l-2.515 0.861c-0.788-1.079-1.219-2.392-1.219-3.733 0-3.488 2.838-6.326 6.326-6.326zM26.767 22.411v1.091h-0.725c-0.105 0-0.204-0.057-0.256-0.148l-0.445-0.777c-0.159-0.277-0.536-0.313-0.747-0.089l-0.686 0.726c-0.173 0.183-0.417 0.288-0.669 0.288h-0.534v-1.091c0-0.687 0.559-1.245 1.245-1.245h1.571c0.687 0 1.245 0.559 1.245 1.246zM24.546 28.055c-1.015 0-1.841-0.826-1.841-1.841v-1.774h0.534c0.64 0 1.22-0.356 1.603-0.849 0.221 0.454 0.669 0.849 1.201 0.849h0.725v1.774c0 1.194-1.131 1.907-2.222 1.841z"/>
-                  </svg>
-                  <h4 class="counter head-font text-center fw-700" data-target="40600"></h4>
-                  <p class="body-font text-center">Subscribers</p>
-              </div>
-              <div class="num-card shadow"  data-aos="fade-left" data-aos-delay="1250"  data-aos-duration="2000" >
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="py-2"  style="height: 80px;"  viewBox="0 0 32 32">
-                                   
-                  <path fill="#ebddd9" d="M18.161 5.472h-10.303c-0.63 0-1.146 0.516-1.146 1.144v7.436c0 0.629 0.516 1.143 1.146 1.143h10.303c0.63 0 1.145-0.514 1.145-1.143v-7.436c0-0.629-0.516-1.144-1.145-1.144z"/>
-                  <path fill="#ebddd9" d="M23.941 6.572l-4.635 1.855v3.813l4.635 1.855c1.071 0.429 1.346 0.14 1.346-0.71v-6.1c0-0.852-0.273-1.141-1.346-0.712z"/>
-                  <path fill="#ffcd69" d="M26.984 0.625h-21.967c-1.919 0-3.486 1.566-3.486 3.483v15.936h28.938v-15.936c0-1.917-1.568-3.483-3.484-3.483zM19.306 8.427l4.635-1.855c1.073-0.429 1.346-0.14 1.346 0.712v6.1c0 0.85-0.275 1.139-1.346 0.71l-4.635-1.855v1.812c0 0.629-0.516 1.143-1.145 1.143h-10.303c-0.63 0-1.146-0.514-1.146-1.143v-7.436c0-0.629 0.516-1.144 1.146-1.144h10.303c0.63 0 1.145 0.516 1.145 1.144z"/>
-                  <path fill="#ffe6b4" d="M29.793 20.044h-28.262v7.848c0 1.915 1.568 3.483 3.486 3.483h21.967c1.917 0 3.484-1.568 3.484-3.483v-7.848zM5.255 25.709c0-0.888 0.72-1.605 1.607-1.605s1.605 0.718 1.605 1.605c0 0.886-0.718 1.603-1.605 1.603s-1.607-0.718-1.607-1.603z"/>
-                  <path fill="#ff7b79" d="M6.862 24.104c-0.887 0-1.607 0.718-1.607 1.605 0 0.886 0.72 1.603 1.607 1.603s1.605-0.718 1.605-1.603c-0-0.888-0.718-1.605-1.605-1.605z"/>
-                  <path fill="#000" d="M19.661 23.826c0.345 0 0.625-0.28 0.625-0.625s-0.28-0.625-0.625-0.625h-2.307c-0.345 0-0.625 0.28-0.625 0.625v5.017c0 0.345 0.28 0.625 0.625 0.625h2.307c0.345 0 0.625-0.28 0.625-0.625s-0.28-0.625-0.625-0.625h-1.682v-1.259h1.682c0.345 0 0.625-0.28 0.625-0.625s-0.28-0.625-0.625-0.625h-1.682v-1.259z"/>
-                  <path fill="#000" d="M15.182 24.455c0-1.036-0.844-1.879-1.88-1.879h-1.855c-0.345 0-0.625 0.28-0.625 0.625v5.017c0 0.345 0.28 0.625 0.625 0.625s0.625-0.28 0.625-0.625v-1.884h0.844l1.083 2.163c0.11 0.219 0.33 0.345 0.559 0.345 0.094 0 0.189-0.021 0.279-0.066 0.309-0.154 0.434-0.53 0.279-0.839l-0.917-1.832c0.585-0.319 0.983-0.939 0.983-1.651zM12.072 23.826h1.23c0.348 0 0.63 0.282 0.63 0.629 0 0.341-0.289 0.629-0.63 0.629h-1.23z"/>
-                  <path fill="#000" d="M26.303 24.376c0.244 0.244 0.64 0.244 0.884-0s0.244-0.64-0-0.884c-1.223-1.222-3.212-1.222-4.435 0-0.592 0.592-0.919 1.379-0.919 2.216s0.326 1.625 0.919 2.216c0.611 0.611 1.415 0.916 2.218 0.916s1.606-0.305 2.218-0.916c0.244-0.244 0.244-0.64 0-0.884s-0.64-0.244-0.884-0c-0.736 0.735-1.933 0.735-2.668 0-0.356-0.356-0.552-0.829-0.552-1.332s0.196-0.976 0.552-1.332c0.736-0.735 1.933-0.735 2.668 0z"/>
-                  <path fill="#000" d="M6.862 23.479c-1.231 0-2.232 1-2.232 2.23 0 1.229 1.001 2.228 2.232 2.228s2.23-1 2.23-2.228c0-1.23-1-2.23-2.23-2.23zM6.862 26.688c-0.541 0-0.982-0.439-0.982-0.978s0.44-0.98 0.982-0.98c0.54 0 0.98 0.44 0.98 0.98 0 0.539-0.439 0.978-0.98 0.978z"/>
-                  <path fill="#000" d="M26.984 0h-21.967c-2.267 0-4.111 1.843-4.111 4.108v5.157c0 0.345 0.28 0.625 0.625 0.625s0.625-0.28 0.625-0.625v-5.157c0-1.576 1.284-2.858 2.861-2.858h21.967c1.577 0 2.859 1.282 2.859 2.858v15.311h-27.688v-4.539c0-0.345-0.28-0.625-0.625-0.625s-0.625 0.28-0.625 0.625v13.012c0 2.265 1.844 4.108 4.111 4.108h21.967c2.266 0 4.109-1.843 4.109-4.108v-23.784c0-2.265-1.843-4.108-4.109-4.108zM26.984 30.75h-21.967c-1.578 0-2.861-1.282-2.861-2.858v-7.223h27.688v7.223c0 1.576-1.283 2.858-2.859 2.858z"/>
-                  <path fill="#000" d="M18.161 4.847h-10.303c-0.976 0-1.771 0.794-1.771 1.769v7.436c0 0.975 0.794 1.768 1.771 1.768h10.303c0.976 0 1.77-0.793 1.77-1.768v-0.889l3.778 1.512c0.308 0.123 0.666 0.241 1.014 0.241 0.23 0 0.456-0.052 0.658-0.189 0.531-0.36 0.531-1.074 0.531-1.343v-6.1c0-0.269 0-0.985-0.531-1.345-0.507-0.344-1.16-0.153-1.672 0.052l-3.778 1.512v-0.887c0-0.976-0.794-1.769-1.77-1.769zM18.161 14.57h-10.303c-0.287 0-0.521-0.232-0.521-0.518v-7.436c0-0.282 0.238-0.519 0.521-0.519h10.303c0.282 0 0.52 0.238 0.52 0.519v7.435c0 0.286-0.233 0.518-0.52 0.518zM24.173 7.153c0.24-0.096 0.388-0.132 0.472-0.145 0.009 0.057 0.017 0.145 0.017 0.277v6.1c0 0.131-0.008 0.218-0.017 0.275-0.084-0.013-0.232-0.049-0.472-0.145l-4.242-1.698v-2.966z"/>
-                  <path fill="#000" d="M16.191 11.687h-6.362c-0.345 0-0.625 0.28-0.625 0.625s0.28 0.625 0.625 0.625h6.362c0.345 0 0.625-0.28 0.625-0.625s-0.28-0.625-0.625-0.625z"/>
-                  <path fill="#000" d="M9.952 9.229h0.002c0.345 0 0.624-0.28 0.624-0.625s-0.281-0.625-0.626-0.625-0.625 0.28-0.625 0.625 0.28 0.625 0.625 0.625z"/>
-                  <path fill="#000" d="M1.531 12.698c0.345 0 0.625-0.282 0.625-0.627s-0.28-0.625-0.625-0.625-0.625 0.28-0.625 0.625v0.004c0 0.345 0.28 0.623 0.625 0.623z"/>
-                  </svg>
-              <h4 class="counter head-font text-center fw-700" data-target="8000"></h4>
-              <p class="body-font text-center">Recorded Content</p>
-              </div>
-            </div>
-          
-        </div>
-        <!-- <div class="modes-flex">
-          <div class="row" style="align-items: center; justify-content: space-between;">
-            <div class="col-md-6 pt-4 align-items-center justify-content-center">
-              <div class="card-grid">
-                <div class="mode-card d-flex flex-column shadow">
-                  <svg xmlns="http://www.w3.org/2000/svg" style="height: 56px;" viewBox="0 0 333333 333333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="M329930 100020s-3254-22976-13269-33065c-12691-13269-26901-13354-33397-14124-46609-3396-116614-3396-116614-3396h-122s-69973 0-116608 3396c-6522 793-20712 848-33397 14124C6501 77044 3316 100020 3316 100020S-1 126982-1 154001v25265c0 26962 3315 53979 3315 53979s3254 22976 13207 33082c12685 13269 29356 12838 36798 14254 26685 2547 113354 3315 113354 3315s70065-124 116675-3457c6522-770 20706-848 33397-14124 10021-10089 13269-33090 13269-33090s3319-26962 3319-53979v-25263c-67-26962-3384-53979-3384-53979l-18 18-2-2zM132123 209917v-93681l90046 46997-90046 46684z" fill="red" /></svg>
-                  <h4 class="counter head-font text-center fw-700 " data-target="3000000"></h4>
-                  <p class="body-font text-center">Views on YouTube</p>
-                </div>
-                <div class="mode-card d-flex flex-column shadow">
-                   <svg xmlns="http://www.w3.org/2000/svg" class="py-2" style="height: 80px; "  viewBox="0 0 128 128"><path fill="#82AEC0" d="M32.04 123.67a3.119 3.119 0 0 1-1.55-3.8l4.02-11.77l7.87 5.31l-6.36 9.24a3.133 3.133 0 0 1-3.98 1.02zm63.32 0c1.39-.7 2.06-2.32 1.55-3.8l-4.07-11.91l-8.29 4.77l6.83 9.92a3.133 3.133 0 0 0 3.98 1.02z"/><path fill="#2F7889" d="m34.51 108.1l-2.05 6c1.27-.73 2.93-.66 4.25-.01c1.32.65 2.33 1.79 3.1 3.05l2.33-3.38c0-.14-7.63-5.66-7.63-5.66zm58.36-.15l2.22 6.6c-1.27-.73-2.79-.71-4.12-.06c-1.32.65-2.33 1.79-3.1 3.05l-3.05-4.43l8.05-5.16z"/><circle cx="63.7" cy="73.93" r="42.01" fill="#FFEFA1"/><circle cx="63.7" cy="70.22" r="49.36" fill="#CC2929"/><circle cx="63.7" cy="72.7" r="46.4" fill="#FF4638"/><circle cx="63.7" cy="72.7" r="40.03" fill="#FAFAFA"/><circle cx="64" cy="72.7" r="4.45" fill="#563428"/><path fill="#B2947C" d="M63.7 42.57c-.81 0-1.47-.66-1.47-1.47v-4.4c0-.81.66-1.47 1.47-1.47c.81 0 1.47.66 1.47 1.47v4.4c0 .81-.66 1.47-1.47 1.47zm0 67.59c-.81 0-1.47-.66-1.47-1.47v-4.4c0-.81.66-1.47 1.47-1.47c.81 0 1.47.66 1.47 1.47v4.4c0 .81-.66 1.47-1.47 1.47zm35.99-36h-4.4c-.81 0-1.47-.66-1.47-1.47c0-.81.66-1.47 1.47-1.47h4.4c.81 0 1.47.66 1.47 1.47c0 .82-.66 1.47-1.47 1.47zm-67.58 0h-4.4c-.81 0-1.47-.66-1.47-1.47c0-.81.66-1.47 1.47-1.47h4.4c.81 0 1.47.66 1.47 1.47c0 .82-.66 1.47-1.47 1.47z"/><path fill="#B2947C" d="M63.7 42.57c-.81 0-1.47-.66-1.47-1.47v-4.4c0-.81.66-1.47 1.47-1.47c.81 0 1.47.66 1.47 1.47v4.4c0 .81-.66 1.47-1.47 1.47zm0 67.59c-.81 0-1.47-.66-1.47-1.47v-4.4c0-.81.66-1.47 1.47-1.47c.81 0 1.47.66 1.47 1.47v4.4c0 .81-.66 1.47-1.47 1.47zM46.63 46.07l-2.2-3.81c-.41-.7-.17-1.6.54-2.01c.7-.41 1.6-.17 2.01.54l2.2 3.81c.41.7.17 1.6-.54 2.01c-.7.4-1.6.16-2.01-.54zm33.8 58.53l-2.2-3.81c-.41-.7-.16-1.6.54-2.01c.7-.41 1.6-.16 2.01.54l2.2 3.81c.41.7.16 1.6-.54 2.01c-.71.4-1.61.16-2.01-.54z"/><path fill="#B2947C" d="m46.63 46.07l-2.2-3.81c-.41-.7-.17-1.6.54-2.01c.7-.41 1.6-.17 2.01.54l2.2 3.81c.41.7.17 1.6-.54 2.01c-.7.4-1.6.16-2.01-.54zm33.8 58.53l-2.2-3.81c-.41-.7-.16-1.6.54-2.01c.7-.41 1.6-.16 2.01.54l2.2 3.81c.41.7.16 1.6-.54 2.01c-.71.4-1.61.16-2.01-.54zM35.61 58.17l-3.81-2.2c-.7-.41-.94-1.3-.54-2.01c.41-.7 1.3-.94 2.01-.54l3.81 2.2c.7.41.94 1.3.54 2.01c-.41.71-1.31.95-2.01.54zm58.53 33.79l-3.81-2.2c-.7-.41-.94-1.3-.54-2.01c.41-.7 1.3-.94 2.01-.54l3.81 2.2c.7.41.94 1.3.54 2.01c-.41.71-1.31.95-2.01.54zM78.76 46.61c-.7-.41-.94-1.3-.54-2.01l2.2-3.81c.41-.7 1.3-.94 2.01-.54c.7.41.94 1.3.54 2.01l-2.2 3.81c-.41.7-1.3.94-2.01.54zm-33.79 58.53c-.7-.41-.94-1.3-.54-2.01l2.2-3.81c.41-.7 1.3-.94 2.01-.54c.7.41.94 1.3.54 2.01l-2.2 3.81c-.41.7-1.31.94-2.01.54zm44.82-47.51c-.41-.7-.17-1.6.54-2.01l3.81-2.2c.7-.41 1.6-.16 2.01.54c.41.7.16 1.6-.54 2.01l-3.81 2.2c-.71.41-1.61.17-2.01-.54zm-58.53 33.8c-.41-.7-.16-1.6.54-2.01l3.81-2.2c.7-.41 1.6-.16 2.01.54c.41.7.16 1.6-.54 2.01l-3.81 2.2c-.71.4-1.61.16-2.01-.54z"/><path fill="none" stroke="#563428" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5" d="M47.49 63.49L63.7 72.7"/><path fill="none" stroke="#563428" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5" d="M86.87 59.41L64.44 72.7"/><path fill="#82AEC0" d="m91.99 32.49l-4.14-2.71l14.09-24.96l4.3 2.43z"/><path fill="#CC2929" d="M111.17 35.21c1.23.36 2.55-.32 2.93-1.54c3.24-10.35-.96-21.61-11.12-26.84c-10.23-5.27-21.34-1.81-27.81 7.02c-.73.99-.56 2.38.36 3.19c2.09 1.85 6.73 5.33 15.98 10.01c9.77 4.94 16.47 7.22 19.66 8.16z"/><path fill="#82AEC0" d="M105.85 10.3s2.61-3.33-1.18-5.44c-2.95-1.64-4.82 1.95-4.82 1.95c-.65 1.19 5.55 4.31 6 3.49zM35.63 32.52L21.36 7.25l4.31-2.43l13.86 24.56z"/><path fill="#CC2929" d="M16.83 35.21c-1.23.36-2.55-.32-2.93-1.54c-3.24-10.35.96-21.61 11.12-26.84c10.23-5.27 21.34-1.81 27.81 7.02c.73.99.56 2.38-.36 3.19c-2.09 1.85-6.73 5.33-15.98 10.01c-9.77 4.94-16.47 7.22-19.66 8.16z"/><path fill="#82AEC0" d="M22.15 10.3s-2.61-3.33 1.18-5.44c2.95-1.64 4.82 1.95 4.82 1.95c.65 1.19-5.55 4.31-6 3.49z"/><path fill="none" stroke="#82AEC0" stroke-miterlimit="10" stroke-width="3.706" d="M63.7 23.22V9.5"/><path fill="#82AEC0" d="M63.76 14.38c-3.92 0-7.85-1.5-7.85-1.5V9.91s3.65-1.63 8.04-1.63s7.65 1.63 7.65 1.63v2.97c.01.01-3.91 1.5-7.84 1.5z"/><path fill="#94D1E0" d="M56.9 9.79c-.43.16-.47.75-.07.98c.58.33 1.27.67 1.51.63c3.3-.51 8.09-.26 11.4.24c.23.04.89-.52 1.36-.94c.26-.24.2-.65-.12-.8c-1.04-.47-3.39-1.31-7.03-1.31c-3.36 0-5.79.71-7.05 1.2z"/><path fill="#FF4638" d="M95.06 7.9c.31 1.06-.83 1.93-1.75 2.54a15.764 15.764 0 0 0-5.4 6.22c-.58 1.2-1.23 2.67-2.56 2.86c-.53.07-1.05-.09-1.55-.27c-.77-.28-1.52-.6-2.25-.97c-.87-.44-1.76-1-2.16-1.89c-.52-1.17-.03-2.55.67-3.63c1.67-2.55 4.39-4.13 7.19-5.17c1.69-.63 6.97-2.56 7.81.31zm-68.93 8.43c.65 1.35 1.38 2.66 2.19 3.92c.99 1.54 2.14 3.26 1.72 5.04c-.49 2.04-2.75 3.02-4.74 3.7c-1.02.35-2.03.7-3.05 1.05c-.54.19-1.11.38-1.68.35c-.9-.04-1.71-.61-2.22-1.34c-.52-.73-.78-1.61-.98-2.48c-.75-3.35-.6-6.9.43-10.18c.6-1.88 1.54-3.86 3.67-4.01c2.59-.18 3.69 1.93 4.66 3.95z"/></svg>
-                                <h4 class="counter head-font text-center fw-700" data-target="232000"></h4>
-                                <p class="body-font text-center">Watch Hours</p>
-                </div>
-                <div class="mode-card d-flex flex-column shadow">
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="py-2"  style="height: 80px;"  viewBox="0 0 32 32">
-                                    
-                    <path fill="#eaf6ff" d="M14.059 24.736c0 1.625-0.571 3.116-1.521 4.286h-0.001c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509h-0.001c-0.951-1.169-1.521-2.661-1.521-4.286 0-3.753 3.042-6.795 6.795-6.795s6.795 3.043 6.795 6.795z"/>
-                    <path fill="#eaf6ff" d="M31.531 24.736c0 1.625-0.571 3.116-1.521 4.286h-0.001c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509h-0.001c-0.951-1.169-1.521-2.661-1.521-4.286 0-3.753 3.043-6.795 6.795-6.795s6.795 3.043 6.795 6.795z"/>
-                    <path fill="#eaf6ff" d="M31.531 7.264c0 1.625-0.571 3.116-1.521 4.286h-0.001c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509h-0.001c-0.951-1.169-1.521-2.661-1.521-4.286 0-3.752 3.043-6.795 6.795-6.795s6.795 3.042 6.795 6.795z"/>
-                    <path fill="#eaf6ff" d="M14.059 7.264c0 3.753-3.042 6.795-6.795 6.795s-6.795-3.042-6.795-6.795c0-3.753 3.042-6.795 6.795-6.795s6.795 3.042 6.795 6.795z"/>
-                    <path fill="#ffe177" d="M12.537 29.022c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509l3.816-1.306h2.914z"/>
-                    <path fill="#ffd15b" d="M8.201 31.467c-0.306 0.043-0.619 0.064-0.938 0.064-2.127 0-4.027-0.978-5.273-2.509l3.816-1.306h1.875l-3.816 1.306c1.059 1.302 2.592 2.204 4.336 2.445z"/>
-                    <path fill="#aee69c" d="M30.009 29.022c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509l3.816-1.306h2.914z"/>
-                    <path fill="#89daa4" d="M25.674 31.467c-0.306 0.043-0.619 0.064-0.938 0.064-2.128 0-4.027-0.978-5.273-2.509l3.816-1.306h1.875l-3.816 1.306c1.059 1.302 2.592 2.204 4.336 2.445z"/>
-                    <path fill="#ea576b" d="M30.009 11.549c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509l3.816-1.306h2.914z"/>
-                    <path fill="#fd4755" d="M25.674 13.994c-0.306 0.043-0.619 0.064-0.938 0.064-2.128 0-4.027-0.978-5.273-2.509l3.816-1.306h1.875l-3.816 1.306c1.059 1.303 2.592 2.204 4.336 2.445z"/>
-                    <path fill="#8ac9fe" d="M12.537 11.549c-1.246 1.531-3.146 2.509-5.273 2.509s-4.027-0.978-5.273-2.509l3.816-1.306h2.914z"/>
-                    <path fill="#60b7ff" d="M8.201 13.994c-0.306 0.043-0.619 0.064-0.938 0.064-2.127 0-4.027-0.978-5.273-2.509l3.816-1.306h1.875l-3.816 1.306c1.059 1.303 2.592 2.204 4.336 2.445z"/>
-                    <path fill="#ffcebf" d="M4.764 5.709v3.034c0 1.275 1.034 2.309 2.309 2.309h0.382c1.275 0 2.309-1.034 2.309-2.309v-3.034c0-0.391-0.317-0.707-0.707-0.707h-3.586c-0.391-0-0.707 0.317-0.707 0.707z"/>
-                    <path fill="#ffb09e" d="M7.889 11.010c-0.141 0.027-0.286 0.041-0.434 0.041h-0.381c-1.276 0-2.309-1.034-2.309-2.309v-3.033c0-0.391 0.317-0.707 0.707-0.707h1.25c-0.391 0-0.707 0.317-0.707 0.707v3.033c0 1.127 0.807 2.066 1.875 2.268z"/>
-                    <path fill="#68748f" d="M4.764 6.499h1.002c0.382 0 0.747-0.157 1.010-0.435l0.686-0.726 0.445 0.777c0.136 0.237 0.389 0.384 0.663 0.384h1.194v-1.56c0-0.947-0.768-1.714-1.714-1.714h-1.571c-0.947 0-1.714 0.768-1.714 1.714z"/>
-                    <path fill="#5d6980" d="M6.478 3.224h1.25c-0.947 0-1.714 0.768-1.714 1.714v1.537c-0.081 0.015-0.164 0.022-0.247 0.022h-1.003v-1.56c0-0.947 0.768-1.714 1.714-1.714z"/>
-                    <path fill="#ffcebf" d="M22.236 5.709v3.034c0 1.275 1.034 2.309 2.309 2.309h0.382c1.275 0 2.309-1.034 2.309-2.309v-3.034c0-0.391-0.317-0.707-0.707-0.707h-3.586c-0.391-0-0.707 0.317-0.707 0.707z"/>
-                    <path fill="#ffb09e" d="M25.361 11.010c-0.141 0.027-0.286 0.041-0.434 0.041h-0.381c-1.276 0-2.309-1.034-2.309-2.309v-3.033c0-0.391 0.317-0.707 0.707-0.707h1.25c-0.391 0-0.707 0.317-0.707 0.707v3.033c0 1.127 0.807 2.066 1.875 2.268z"/>
-                    <path fill="#68748f" d="M22.236 6.499h1.002c0.382 0 0.747-0.157 1.010-0.435l0.686-0.726 0.445 0.777c0.136 0.237 0.389 0.384 0.663 0.384h1.194v-1.56c0-0.947-0.767-1.714-1.714-1.714h-1.571c-0.947 0-1.714 0.768-1.714 1.714z"/>
-                    <path fill="#5d6980" d="M23.951 3.224h1.25c-0.947 0-1.714 0.768-1.714 1.714v1.537c-0.081 0.015-0.164 0.022-0.247 0.022h-1.003v-1.56c0-0.947 0.767-1.714 1.714-1.714z"/>
-                    <path fill="#ffcebf" d="M4.764 23.181v3.034c0 1.275 1.034 2.309 2.309 2.309h0.382c1.275 0 2.309-1.034 2.309-2.309v-3.034c0-0.391-0.317-0.707-0.707-0.707h-3.586c-0.391 0-0.707 0.317-0.707 0.707z"/>
-                    <path fill="#ffb09e" d="M7.889 28.483c-0.141 0.027-0.286 0.041-0.434 0.041h-0.381c-1.276 0-2.309-1.034-2.309-2.309v-3.033c0-0.391 0.317-0.707 0.707-0.707h1.25c-0.391 0-0.707 0.317-0.707 0.707v3.033c0 1.127 0.807 2.066 1.875 2.268z"/>
-                    <path fill="#68748f" d="M4.764 23.971h1.002c0.382 0 0.747-0.157 1.010-0.435l0.686-0.726 0.445 0.777c0.136 0.237 0.389 0.384 0.663 0.384h1.194v-1.56c0-0.947-0.768-1.714-1.714-1.714h-1.571c-0.947 0-1.714 0.767-1.714 1.714z"/>
-                    <path fill="#5d6980" d="M6.478 20.697h1.25c-0.947 0-1.714 0.767-1.714 1.714v1.538c-0.081 0.015-0.164 0.023-0.247 0.023h-1.003v-1.56c0-0.947 0.768-1.714 1.714-1.714z"/>
-                    <path fill="#ffcebf" d="M22.236 23.181v3.034c0 1.275 1.034 2.309 2.309 2.309h0.382c1.275 0 2.309-1.034 2.309-2.309v-3.034c0-0.391-0.317-0.707-0.707-0.707h-3.586c-0.391 0-0.707 0.317-0.707 0.707z"/>
-                    <path fill="#ffb09e" d="M25.361 28.483c-0.141 0.027-0.286 0.041-0.434 0.041h-0.381c-1.276 0-2.309-1.034-2.309-2.309v-3.033c0-0.391 0.317-0.707 0.707-0.707h1.25c-0.391 0-0.707 0.317-0.707 0.707v3.033c0 1.127 0.807 2.066 1.875 2.268z"/>
-                    <path fill="#68748f" d="M22.236 23.971h1.002c0.382 0 0.747-0.157 1.010-0.435l0.686-0.726 0.445 0.777c0.136 0.237 0.389 0.384 0.663 0.384h1.194v-1.56c0-0.947-0.767-1.714-1.714-1.714h-1.571c-0.947 0-1.714 0.767-1.714 1.714z"/>
-                    <path fill="#5d6980" d="M23.951 20.697h1.25c-0.947 0-1.714 0.767-1.714 1.714v1.538c-0.081 0.015-0.164 0.023-0.247 0.023h-1.003v-1.56c0-0.947 0.767-1.714 1.714-1.714z"/>
-                    <path fill="#000" d="M32 24.736c0-3.647-2.702-6.674-6.209-7.187l1.218-1.218c0.183-0.183 0.183-0.48 0-0.663s-0.48-0.183-0.663 0l-1.141 1.141v-2.298c3.37-0.215 6.211-2.825 6.713-6.157 0.039-0.256-0.138-0.495-0.394-0.533s-0.495 0.138-0.533 0.394c-0.152 1.005-0.547 1.96-1.148 2.782l-2.515-0.86c0.239-0.41 0.377-0.886 0.377-1.395l-0-3.803c0-1.204-0.979-2.183-2.183-2.183h-1.571c-1.204 0-2.183 0.979-2.183 2.183l-0 3.803c0 0.508 0.138 0.984 0.377 1.395l-2.515 0.861c-0.788-1.079-1.219-2.392-1.219-3.733 0-0 0-0 0-0 0-3.488 2.838-6.326 6.326-6.326 3.104 0 5.793 2.311 6.255 5.375 0.039 0.256 0.278 0.432 0.533 0.394s0.432-0.277 0.394-0.533c-0.528-3.505-3.64-6.173-7.182-6.173-3.647 0-6.674 2.702-7.187 6.209l-1.218-1.218c-0.183-0.183-0.48-0.183-0.663 0s-0.183 0.48-0 0.663l1.141 1.141h-2.298c-0.242-3.788-3.4-6.795-7.248-6.795-4.005 0-7.264 3.258-7.264 7.264 0 3.539 2.701 6.674 6.209 7.187l-1.218 1.218c-0.183 0.183-0.183 0.48-0 0.663s0.48 0.183 0.663 0l1.141-1.141v2.298c-1.225 0.078-2.406 0.463-3.441 1.125-0.218 0.14-0.282 0.429-0.142 0.648s0.429 0.282 0.647 0.142c1.015-0.65 2.192-0.993 3.404-0.993 3.488 0 6.326 2.838 6.326 6.326v0c0 1.341-0.431 2.654-1.219 3.733l-2.515-0.861c0.239-0.41 0.377-0.887 0.377-1.395l-0-3.803c0-1.204-0.979-2.183-2.183-2.183h-1.571c-1.204 0-2.183 0.979-2.183 2.183v3.803c0 0.508 0.138 0.984 0.377 1.395l-2.515 0.86c-0.788-1.079-1.219-2.392-1.219-3.733 0-1.491 0.529-2.938 1.488-4.076 0.167-0.198 0.142-0.494-0.056-0.661s-0.494-0.142-0.66 0.056c-1.102 1.307-1.709 2.969-1.709 4.68 0 3.962 3.286 7.264 7.264 7.264 3.575 0 6.667-2.692 7.185-6.211l1.22 1.22c0.221 0.183 0.442 0.183 0.663 0 0.183-0.183 0.183-0.48 0-0.663l-1.141-1.141h2.299c0.218 3.35 2.781 6.184 6.115 6.707 0.256 0.041 0.496-0.135 0.536-0.39s-0.135-0.496-0.39-0.536c-1.314-0.206-2.52-0.822-3.46-1.752l2.512-0.859c1.035 0.837 2.837 0.834 3.869 0l2.512 0.859c-0.958 0.949-2.189 1.568-3.531 1.762-0.256 0.037-0.434 0.275-0.397 0.531 0.034 0.233 0.234 0.402 0.463 0.402 3.5 0 6.281-3.304 6.281-7.193zM24.736 13.59c-1.682 0-3.268-0.659-4.448-1.828l2.514-0.86c1.035 0.837 2.837 0.834 3.869 0l2.514 0.86c-1.18 1.169-2.766 1.828-4.448 1.828zM22.705 6.968h0.534c0.64 0 1.22-0.356 1.603-0.849 0.221 0.454 0.669 0.849 1.201 0.849h0.725v1.774c0 2.449-4.063 2.449-4.063 0zM22.705 4.939c0-0.687 0.559-1.245 1.245-1.245h1.571c0.687 0 1.245 0.559 1.245 1.245v1.091h-0.725c-0.105 0-0.204-0.057-0.256-0.148l-0.445-0.777c-0.159-0.277-0.536-0.313-0.747-0.089l-0.686 0.726c-0.173 0.183-0.417 0.288-0.669 0.288h-0.534v-1.091zM7.264 0.938c3.488 0 6.326 2.838 6.326 6.326 0 1.395-0.454 2.685-1.222 3.732l-2.513-0.86c0.239-0.41 0.377-0.886 0.377-1.395l-0-3.803c0-1.204-0.979-2.183-2.183-2.183h-1.571c-1.204 0-2.183 0.979-2.183 2.183v3.803c0 0.508 0.138 0.984 0.377 1.395l-2.513 0.86c-0.768-1.047-1.222-2.338-1.222-3.732 0-3.488 2.838-6.326 6.326-6.326zM7.264 13.59c-1.731 0-3.301-0.699-4.444-1.829l2.51-0.859c1.035 0.837 2.837 0.834 3.869 0l2.51 0.859c-1.143 1.13-2.714 1.829-4.444 1.829zM5.766 6.968c0.64 0 1.22-0.356 1.603-0.849 0.221 0.454 0.669 0.849 1.201 0.849h0.725v1.774c0 2.449-4.063 2.449-4.063 0v-1.774zM5.233 6.030v-1.091c0-0.687 0.559-1.245 1.245-1.245h1.571c0.687 0 1.245 0.559 1.245 1.245v1.091h-0.725c-0.105 0-0.204-0.057-0.256-0.148l-0.445-0.777c-0.159-0.277-0.536-0.313-0.747-0.089l-0.686 0.726c-0.173 0.183-0.417 0.288-0.669 0.288h-0.534zM7.732 17.488v-2.298l1.141 1.141c0.221 0.183 0.442 0.183 0.663 0 0.183-0.183 0.183-0.48-0-0.663l-1.218-1.218c3.337-0.488 5.978-3.361 6.193-6.718h2.298l-1.141 1.141c-0.183 0.183-0.183 0.48 0 0.663 0.221 0.183 0.442 0.183 0.663 0l1.22-1.22c0.493 3.348 3.321 5.979 6.716 6.195v2.298l-1.141-1.141c-0.183-0.183-0.48-0.183-0.663 0s-0.183 0.48 0 0.663l1.218 1.218c-3.356 0.49-5.973 3.283-6.193 6.718h-2.298l1.141-1.141c0.183-0.183 0.183-0.48-0-0.663s-0.48-0.183-0.663 0l-1.218 1.218c-0.491-3.356-3.283-5.973-6.718-6.193zM5.232 26.214v-1.774h0.534c0.64 0 1.22-0.356 1.603-0.849 0.221 0.454 0.669 0.849 1.201 0.849h0.725v1.774c0 2.449-4.063 2.449-4.063 0zM5.233 22.411c0-0.687 0.559-1.245 1.245-1.245h1.571c0.687 0 1.245 0.559 1.245 1.245v1.091h-0.725c-0.105 0-0.204-0.057-0.256-0.148l-0.445-0.777c-0.159-0.277-0.536-0.313-0.747-0.089l-0.686 0.726c-0.173 0.183-0.417 0.288-0.669 0.288h-0.534v-1.091zM7.264 31.063c-1.682 0-3.268-0.659-4.448-1.828l2.514-0.86c1.035 0.837 2.837 0.834 3.869 0l2.514 0.86c-1.18 1.169-2.766 1.828-4.448 1.828zM24.736 18.41c3.488 0 6.326 2.838 6.326 6.326 0 1.341-0.431 2.654-1.219 3.733l-2.515-0.861c0.239-0.41 0.377-0.887 0.377-1.395l-0-3.803c0-1.204-0.979-2.183-2.183-2.183h-1.571c-1.204 0-2.183 0.979-2.183 2.183l-0 3.803c0 0.508 0.138 0.984 0.377 1.395l-2.515 0.861c-0.788-1.079-1.219-2.392-1.219-3.733 0-3.488 2.838-6.326 6.326-6.326zM26.767 22.411v1.091h-0.725c-0.105 0-0.204-0.057-0.256-0.148l-0.445-0.777c-0.159-0.277-0.536-0.313-0.747-0.089l-0.686 0.726c-0.173 0.183-0.417 0.288-0.669 0.288h-0.534v-1.091c0-0.687 0.559-1.245 1.245-1.245h1.571c0.687 0 1.245 0.559 1.245 1.246zM24.546 28.055c-1.015 0-1.841-0.826-1.841-1.841v-1.774h0.534c0.64 0 1.22-0.356 1.603-0.849 0.221 0.454 0.669 0.849 1.201 0.849h0.725v1.774c0 1.194-1.131 1.907-2.222 1.841z"/>
-                    </svg>
-                    <h4 class="counter head-font text-center fw-700" data-target="40600"></h4>
-                    <p class="body-font text-center">Subscribers</p>
-                </div>
-                <div class="mode-card d-flex flex-column shadow">
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="py-2"  style="height: 80px;"  viewBox="0 0 32 32">
-                                   
-                    <path fill="#ebddd9" d="M18.161 5.472h-10.303c-0.63 0-1.146 0.516-1.146 1.144v7.436c0 0.629 0.516 1.143 1.146 1.143h10.303c0.63 0 1.145-0.514 1.145-1.143v-7.436c0-0.629-0.516-1.144-1.145-1.144z"/>
-                    <path fill="#ebddd9" d="M23.941 6.572l-4.635 1.855v3.813l4.635 1.855c1.071 0.429 1.346 0.14 1.346-0.71v-6.1c0-0.852-0.273-1.141-1.346-0.712z"/>
-                    <path fill="#ffcd69" d="M26.984 0.625h-21.967c-1.919 0-3.486 1.566-3.486 3.483v15.936h28.938v-15.936c0-1.917-1.568-3.483-3.484-3.483zM19.306 8.427l4.635-1.855c1.073-0.429 1.346-0.14 1.346 0.712v6.1c0 0.85-0.275 1.139-1.346 0.71l-4.635-1.855v1.812c0 0.629-0.516 1.143-1.145 1.143h-10.303c-0.63 0-1.146-0.514-1.146-1.143v-7.436c0-0.629 0.516-1.144 1.146-1.144h10.303c0.63 0 1.145 0.516 1.145 1.144z"/>
-                    <path fill="#ffe6b4" d="M29.793 20.044h-28.262v7.848c0 1.915 1.568 3.483 3.486 3.483h21.967c1.917 0 3.484-1.568 3.484-3.483v-7.848zM5.255 25.709c0-0.888 0.72-1.605 1.607-1.605s1.605 0.718 1.605 1.605c0 0.886-0.718 1.603-1.605 1.603s-1.607-0.718-1.607-1.603z"/>
-                    <path fill="#ff7b79" d="M6.862 24.104c-0.887 0-1.607 0.718-1.607 1.605 0 0.886 0.72 1.603 1.607 1.603s1.605-0.718 1.605-1.603c-0-0.888-0.718-1.605-1.605-1.605z"/>
-                    <path fill="#000" d="M19.661 23.826c0.345 0 0.625-0.28 0.625-0.625s-0.28-0.625-0.625-0.625h-2.307c-0.345 0-0.625 0.28-0.625 0.625v5.017c0 0.345 0.28 0.625 0.625 0.625h2.307c0.345 0 0.625-0.28 0.625-0.625s-0.28-0.625-0.625-0.625h-1.682v-1.259h1.682c0.345 0 0.625-0.28 0.625-0.625s-0.28-0.625-0.625-0.625h-1.682v-1.259z"/>
-                    <path fill="#000" d="M15.182 24.455c0-1.036-0.844-1.879-1.88-1.879h-1.855c-0.345 0-0.625 0.28-0.625 0.625v5.017c0 0.345 0.28 0.625 0.625 0.625s0.625-0.28 0.625-0.625v-1.884h0.844l1.083 2.163c0.11 0.219 0.33 0.345 0.559 0.345 0.094 0 0.189-0.021 0.279-0.066 0.309-0.154 0.434-0.53 0.279-0.839l-0.917-1.832c0.585-0.319 0.983-0.939 0.983-1.651zM12.072 23.826h1.23c0.348 0 0.63 0.282 0.63 0.629 0 0.341-0.289 0.629-0.63 0.629h-1.23z"/>
-                    <path fill="#000" d="M26.303 24.376c0.244 0.244 0.64 0.244 0.884-0s0.244-0.64-0-0.884c-1.223-1.222-3.212-1.222-4.435 0-0.592 0.592-0.919 1.379-0.919 2.216s0.326 1.625 0.919 2.216c0.611 0.611 1.415 0.916 2.218 0.916s1.606-0.305 2.218-0.916c0.244-0.244 0.244-0.64 0-0.884s-0.64-0.244-0.884-0c-0.736 0.735-1.933 0.735-2.668 0-0.356-0.356-0.552-0.829-0.552-1.332s0.196-0.976 0.552-1.332c0.736-0.735 1.933-0.735 2.668 0z"/>
-                    <path fill="#000" d="M6.862 23.479c-1.231 0-2.232 1-2.232 2.23 0 1.229 1.001 2.228 2.232 2.228s2.23-1 2.23-2.228c0-1.23-1-2.23-2.23-2.23zM6.862 26.688c-0.541 0-0.982-0.439-0.982-0.978s0.44-0.98 0.982-0.98c0.54 0 0.98 0.44 0.98 0.98 0 0.539-0.439 0.978-0.98 0.978z"/>
-                    <path fill="#000" d="M26.984 0h-21.967c-2.267 0-4.111 1.843-4.111 4.108v5.157c0 0.345 0.28 0.625 0.625 0.625s0.625-0.28 0.625-0.625v-5.157c0-1.576 1.284-2.858 2.861-2.858h21.967c1.577 0 2.859 1.282 2.859 2.858v15.311h-27.688v-4.539c0-0.345-0.28-0.625-0.625-0.625s-0.625 0.28-0.625 0.625v13.012c0 2.265 1.844 4.108 4.111 4.108h21.967c2.266 0 4.109-1.843 4.109-4.108v-23.784c0-2.265-1.843-4.108-4.109-4.108zM26.984 30.75h-21.967c-1.578 0-2.861-1.282-2.861-2.858v-7.223h27.688v7.223c0 1.576-1.283 2.858-2.859 2.858z"/>
-                    <path fill="#000" d="M18.161 4.847h-10.303c-0.976 0-1.771 0.794-1.771 1.769v7.436c0 0.975 0.794 1.768 1.771 1.768h10.303c0.976 0 1.77-0.793 1.77-1.768v-0.889l3.778 1.512c0.308 0.123 0.666 0.241 1.014 0.241 0.23 0 0.456-0.052 0.658-0.189 0.531-0.36 0.531-1.074 0.531-1.343v-6.1c0-0.269 0-0.985-0.531-1.345-0.507-0.344-1.16-0.153-1.672 0.052l-3.778 1.512v-0.887c0-0.976-0.794-1.769-1.77-1.769zM18.161 14.57h-10.303c-0.287 0-0.521-0.232-0.521-0.518v-7.436c0-0.282 0.238-0.519 0.521-0.519h10.303c0.282 0 0.52 0.238 0.52 0.519v7.435c0 0.286-0.233 0.518-0.52 0.518zM24.173 7.153c0.24-0.096 0.388-0.132 0.472-0.145 0.009 0.057 0.017 0.145 0.017 0.277v6.1c0 0.131-0.008 0.218-0.017 0.275-0.084-0.013-0.232-0.049-0.472-0.145l-4.242-1.698v-2.966z"/>
-                    <path fill="#000" d="M16.191 11.687h-6.362c-0.345 0-0.625 0.28-0.625 0.625s0.28 0.625 0.625 0.625h6.362c0.345 0 0.625-0.28 0.625-0.625s-0.28-0.625-0.625-0.625z"/>
-                    <path fill="#000" d="M9.952 9.229h0.002c0.345 0 0.624-0.28 0.624-0.625s-0.281-0.625-0.626-0.625-0.625 0.28-0.625 0.625 0.28 0.625 0.625 0.625z"/>
-                    <path fill="#000" d="M1.531 12.698c0.345 0 0.625-0.282 0.625-0.627s-0.28-0.625-0.625-0.625-0.625 0.28-0.625 0.625v0.004c0 0.345 0.28 0.623 0.625 0.623z"/>
-                    </svg>
-                <h4 class="counter head-font text-center fw-700" data-target="8000"></h4>
-                <p class="body-font text-center">Recorded Content</p>
-                </div>
-              </div>
-              </div>
-           <div class="col-md-6">
-             <img src="./assets/numbers (2).png" class="banner-image" alt="">
-           </div>
-           
-           <!-- <div class="col-md-3">
-             <div class="mode-card-flex">
-               <div class="mode-card shadow row align-items-center p-3">
-                 <div class="col-4"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg></div><div class="col-8">
-                 <h4 class="head-font fw-700">YouTube</h4>
-               </div>
-               </div>
-               <div class="mode-card shadow row align-items-center p-3">
-                 <div class="col-4"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 256 229"><path fill="#0066DA" d="m19.354 196.034l11.29 19.5c2.346 4.106 5.718 7.332 9.677 9.678c11.34-14.394 19.232-25.44 23.68-33.137c4.513-7.811 10.06-20.03 16.641-36.655c-17.736-2.335-31.176-3.502-40.32-3.502c-8.777 0-22.217 1.167-40.322 3.502c0 4.545 1.173 9.09 3.519 13.196l15.835 27.418Z"/><path fill="#EA4335" d="M215.681 225.212c3.96-2.346 7.332-5.572 9.677-9.677l4.692-8.064l22.434-38.855a26.566 26.566 0 0 0 3.518-13.196c-18.21-2.335-31.625-3.502-40.247-3.502c-9.266 0-22.682 1.167-40.248 3.502c6.503 16.716 11.977 28.935 16.422 36.655c4.483 7.789 12.4 18.834 23.752 33.137Z"/><path fill="#00832D" d="M128.001 73.311c13.12-15.845 22.162-28.064 27.125-36.655c3.997-6.918 8.396-17.964 13.196-33.137C164.363 1.173 159.818 0 155.126 0h-54.25C96.184 0 91.64 1.32 87.68 3.519c6.106 17.402 11.288 29.787 15.544 37.154c4.704 8.142 12.963 19.021 24.777 32.638Z"/><path fill="#2684FC" d="M175.36 155.42H80.642l-40.32 69.792c3.958 2.346 8.503 3.519 13.195 3.519h148.968c4.692 0 9.238-1.32 13.196-3.52l-40.32-69.791Z"/><path fill="#00AC47" d="M128.001 73.311L87.681 3.52c-3.96 2.346-7.332 5.571-9.678 9.677L3.519 142.224A26.567 26.567 0 0 0 0 155.42h80.642l47.36-82.109Z"/><path fill="#FFBA00" d="m215.242 77.71l-37.243-64.514c-2.345-4.106-5.718-7.331-9.677-9.677l-40.32 69.792l47.358 82.109h80.496c0-4.546-1.173-9.09-3.519-13.196L215.242 77.71Z"/></svg></div><div class="col-8">
-                 <h4 class="head-font fw-700">Google Drive   </h4>
-               </div>
-               </div>
-             </div>
-           </div>
-           <div class="col-md-6">
-             <img src="./assets/mockup.png" class="banner-image" alt="">
-           </div>
-           <div class="col-md-3">
-             <div class="mode-card-flex">
-               <div class="mode-card shadow row align-items-center p-3">
-                 <div class="col-4"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 72 72"><path fill="#ea5a47" d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z"/><g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"><path d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"/><path stroke-linecap="round" stroke-linejoin="round" d="M30.05 44.65L45.256 36L30.05 27.35Z"/></g></svg></div><div class="col-8">
-                 <h4 class="head-font fw-700">YouTube</h4>
-               </div>
-               </div>
-               <div class="mode-card shadow row align-items-center p-3">
-                 <div class="col-4"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 256 229"><path fill="#0066DA" d="m19.354 196.034l11.29 19.5c2.346 4.106 5.718 7.332 9.677 9.678c11.34-14.394 19.232-25.44 23.68-33.137c4.513-7.811 10.06-20.03 16.641-36.655c-17.736-2.335-31.176-3.502-40.32-3.502c-8.777 0-22.217 1.167-40.322 3.502c0 4.545 1.173 9.09 3.519 13.196l15.835 27.418Z"/><path fill="#EA4335" d="M215.681 225.212c3.96-2.346 7.332-5.572 9.677-9.677l4.692-8.064l22.434-38.855a26.566 26.566 0 0 0 3.518-13.196c-18.21-2.335-31.625-3.502-40.247-3.502c-9.266 0-22.682 1.167-40.248 3.502c6.503 16.716 11.977 28.935 16.422 36.655c4.483 7.789 12.4 18.834 23.752 33.137Z"/><path fill="#00832D" d="M128.001 73.311c13.12-15.845 22.162-28.064 27.125-36.655c3.997-6.918 8.396-17.964 13.196-33.137C164.363 1.173 159.818 0 155.126 0h-54.25C96.184 0 91.64 1.32 87.68 3.519c6.106 17.402 11.288 29.787 15.544 37.154c4.704 8.142 12.963 19.021 24.777 32.638Z"/><path fill="#2684FC" d="M175.36 155.42H80.642l-40.32 69.792c3.958 2.346 8.503 3.519 13.195 3.519h148.968c4.692 0 9.238-1.32 13.196-3.52l-40.32-69.791Z"/><path fill="#00AC47" d="M128.001 73.311L87.681 3.52c-3.96 2.346-7.332 5.571-9.678 9.677L3.519 142.224A26.567 26.567 0 0 0 0 155.42h80.642l47.36-82.109Z"/><path fill="#FFBA00" d="m215.242 77.71l-37.243-64.514c-2.345-4.106-5.718-7.331-9.677-9.677l-40.32 69.792l47.358 82.109h80.496c0-4.546-1.173-9.09-3.519-13.196L215.242 77.71Z"/></svg></div><div class="col-8">
-                 <h4 class="head-font fw-700">Google Drive   </h4>
-               </div>
-               </div>
-             </div>
-           </div> -->
-          </div>
-         </div> -->
-        </section>
-      <!-- Mobile App -->
-      <section class="mobile-app">
-        <h2 class="head-font title fw-900 text-center">Adaptive in Mobile App</h2>
-        <div class="mobile-flex">
-        <div class="mobile-card">
-
-        </div>
-        <div class="mobile-img">
-          
-        </div>
-        <div class="mobile-card">
-
-        </div>
+            <q class="body-font test-text">
+                I recently took the Adaptive Learning online e-learning course and it was the best course I have ever taken. The quality of the content was outstanding and the handwritten notes were incredibly helpful. I was able to apply the knowledge I gained from the course to my commerce studies and it was invaluable. I highly recommend this course to anyone looking to further their knowledge in the field of commerce.
+            </q>
+            <p class="test-user head-font text-center fw-800">
+                Alexander Cross
+            </p>
         </div>
         
-      </section>
-      <!-- Footer -->
-      <footer>
-        <div class="footer-left">
-          <h3 class="head-font title fw-900 text-center">Get in Touch</h3>
-          <ul class="footer-list">
-            <li>
-              <span class="iconify" style="font-size: 64px;" data-icon="mdi:address-marker-outline"></span>
-              
-                <p class="body-font"> Opp Jogidas Vithal 's Pole, Raopura Road, Opp Jogidas Vithal 's Pole, Raopura Road,  Vadodara, Gujarat</p>
-            
-            </li>
-            <li>
-              <span class="iconify" style="font-size: 32px;" data-icon="octicon:mail-16"></span>
-              
-                <a href="mailto:theadaptivelearning@gmail.com" class="body-font">theadaptivelearning@gmail.com</a>
-            
-            </li>
-          </ul>
-        </div>
-        <div class="footer-mid"> 
-          <h3 class="head-font title fw-900 text-center">QUICK LINKS</h3>
-          <ul class="footer-list ps-5">
-          <li><a href="" class="body-font">Terms of Service</a>
-           </li>
-          <li><a href="" class="body-font">Contact Us</a>
-           </li>
-          <li><a href="" class="body-font">Blog </a>
-           </li>
-          <li><a href="" class="body-font">Terms of Service</a>
-           </li>
-        </ul></div>
-        <div class="footer-right">
-          <h3 class="head-font title fw-900 text-center">Social Links</h3>
-          <div class="social-icons">
-            <div class="social-icons">
-              <div>
-                <a href="https://www.instagram.com/adaptive_learning/">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="64" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 640 640">
-                    <path d="M184.715 2.752h270.582C556.908 2.752 640 84.816 640 185.069v269.85c0 100.277-83.092 182.317-184.703 182.317H184.715C83.104 637.236 0 555.196 0 454.919v-269.85C0 84.816 83.103 2.752 184.715 2.752zm133.561 145.939c98.741 0 178.868 80.127 178.868 178.868 0 98.753-80.127 178.868-178.868 178.868-98.765 0-178.88-80.115-178.88-178.868 0-98.741 80.115-178.868 178.88-178.868zm0 60.414c65.387 0 118.454 53.056 118.454 118.454s-53.068 118.466-118.454 118.466c-65.41 0-118.466-53.067-118.466-118.466 0-65.398 53.056-118.454 118.466-118.454zM491.321 123.9c16.04 0 29.044 13.004 29.044 29.032 0 16.04-13.004 29.044-29.044 29.044-16.028 0-29.032-13.004-29.032-29.044 0-16.028 13.004-29.032 29.032-29.032zM206.825 54.58H433.21c85.005 0 154.526 69.178 154.526 153.712V435.81c0 84.532-69.52 153.699-154.526 153.699H206.825c-85.005 0-154.537-69.167-154.537-153.7V208.29c0-84.532 69.532-153.71 154.537-153.71z"></path></svg></a>
-              </div>
-              <div>
-                <a href="https://www.facebook.com/adaplearning/">
-                  <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" width="32" height="64" data-name="Layer 1" viewBox="0 0 506.86 506.86"><defs><style>.cls-2{fill:none;}</style></defs><title>facebook-round-color</title><path class="cls-1" d="M506.86,253.43C506.86,113.46,393.39,0,253.43,0S0,113.46,0,253.43C0,379.92,92.68,484.77,213.83,503.78V326.69H149.48V253.43h64.35V197.6c0-63.52,37.84-98.6,95.72-98.6,27.73,0,56.73,5,56.73,5v62.36H334.33c-31.49,0-41.3,19.54-41.3,39.58v47.54h70.28l-11.23,73.26H293V503.78C414.18,484.77,506.86,379.92,506.86,253.43Z"></path><path class="cls-2" d="M352.08,326.69l11.23-73.26H293V205.89c0-20,9.81-39.58,41.3-39.58h31.95V104s-29-5-56.73-5c-57.88,0-95.72,35.08-95.72,98.6v55.83H149.48v73.26h64.35V503.78a256.11,256.11,0,0,0,79.2,0V326.69Z"></path></svg></a>
-              </div>
-      
-              <div>
-                <a href="https://t.me/adaptivelearning"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="64"viewBox="0 0 333334 333334" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M166667 0c92048 0 166667 74619 166667 166667s-74619 166667-166667 166667S0 258715 0 166667 74619 0 166667 0zm80219 91205l-29735 149919s-4158 10396-15594 5404l-68410-53854s76104-68409 79222-71320c3119-2911 2079-3534 2079-3534 207-3535-5614 0-5614 0l-100846 64043-42002-14140s-6446-2288-7069-7277c-624-4992 7277-7694 7277-7694l166970-65498s13722-6030 13722 3951zm-87637 122889l-27141 24745s-2122 1609-4443 601l5197-45965 26387 20619z"></path></svg></a>
-              </div>
-              <div>
-                <a href="https://www.youtube.com/channel/UCBrk7LnxpQFyxfLf-2F4arQ">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="64" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 640 640">
-                    <path d="M633.468 192.038s-6.248-44.115-25.477-63.485c-24.366-25.477-51.65-25.642-64.123-27.118-89.493-6.52-223.904-6.52-223.904-6.52h-.236s-134.352 0-223.893 6.52c-12.52 1.523-39.768 1.63-64.123 27.118-19.24 19.37-25.358 63.485-25.358 63.485S-.012 243.806-.012 295.681v48.509c0 51.768 6.366 103.643 6.366 103.643s6.248 44.114 25.358 63.52c24.355 25.477 56.363 24.65 70.655 27.367 51.237 4.89 217.644 6.366 217.644 6.366s134.529-.237 224.022-6.638c12.52-1.477 39.756-1.63 64.123-27.119 19.24-19.37 25.476-63.532 25.476-63.532S640 396.03 640 344.154v-48.508c-.13-51.769-6.497-103.643-6.497-103.643l-.035.035zm-379.8 211.007V223.173L426.56 313.41l-172.892 89.635z"></path></svg></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </footer>
-      <p class="text-center body-font py-3" style="background-color: aquamarine;">Copyright © 2023 Adaptive Learning. All rights reserved.</p>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+       </div>
+    </section>
+     <!-- Script Files -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
-<script src="./main.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-</body>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
