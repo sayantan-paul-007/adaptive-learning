@@ -62,6 +62,12 @@
 section{
     padding: 2rem 5rem !important;
 }
+/* Whatsapp button */
+.whatsapp-btn{
+    position: fixed;
+    right:1rem ;
+    bottom: 1rem;
+}
 /* Navbar */
 nav{
     padding: 1rem 5rem !important;
@@ -94,11 +100,17 @@ img{
 /* Metabox */
 .metabox{
     font-size: 20px;
-
+    padding: 1.5rem !important;
     display: flex;
-    gap: 30px;
-    justify-content: center;
-    background-color: aqua;
+    justify-content: space-evenly;
+    background-color: rgb(206, 243, 243);
+}
+.metabox-content{
+    display: flex;
+    flex-direction: column;
+}
+.counter::after{
+    content: '+';
 }
 /* About Us */
 .about-flex{
@@ -189,9 +201,44 @@ gap: 20px;
 
 
 
-
-
-
+/* Footer */
+footer{
+    background-color: black;
+    padding: 2rem 5rem !important;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    color: aliceblue;
+}
+.footer-column{
+    display: flex;
+    gap: .75rem;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact,.contact-us{
+    padding: 1rem 0 !important;
+    list-style: none;
+}
+.brand-image{
+    display: flex;
+    justify-content: center;
+}
+.contact-flex{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0 !important
+}
+.foot-head{
+    font-size: 1.75rem;
+   
+}
+.contact-us{
+    padding: 1rem;
+}
 
 
 
