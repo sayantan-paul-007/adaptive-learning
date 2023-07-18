@@ -159,6 +159,10 @@ gap: 20px;
    justify-content: center;
 }
 /* Modes of Learning */
+.mockup-image{
+    padding: 1rem !important;
+    width: 80% !important;
+}
 /* Testimonials */
 .testimonial-flex{
     display: flex;
@@ -196,9 +200,15 @@ gap: 20px;
     font-family: "Arial";
     font-size: 20px;
 }
-
-
-
+/* Mobile App */
+.mobile-app-image{
+   width: auto !important;
+    height: 500px !important;
+}
+.mobile-app{
+    display: flex;
+    justify-content: center;
+}
 
 
 /* Footer */
