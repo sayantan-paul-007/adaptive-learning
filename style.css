@@ -109,6 +109,9 @@ img{
     display: flex;
     flex-direction: column;
 }
+.metabox-content svg{
+    height: 72px;
+}
 .counter::after{
     content: '+';
 }
@@ -121,6 +124,10 @@ img{
 }
 .about-flex >div{
     width: 50%;
+}
+.about-img{
+    display: flex;
+    justify-content: center;
 }
 .about-text{
 display: flex;
@@ -138,6 +145,10 @@ gap: 20px;
     justify-content: center;
     gap: 30px;
     padding: 2rem 0 !important;
+}
+.youtube-flex .yt-card{
+    display: flex;
+    justify-content: center;
 }
 .yt-button{
     display: flex;
@@ -176,7 +187,7 @@ gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center !important;
-    width: 30%;
+    
     gap: 20px;
     border-radius: 1rem;
 }
@@ -249,8 +260,49 @@ footer{
 .contact-us{
     padding: 1rem;
 }
+/* Responsiveness */
+@media screen and (max-width: 820px){
+.about-flex{
+    flex-wrap: wrap-reverse;
+}
+.about-flex >div{
+    width: 100%;
+}
+.metabox{
+    font-size: .75rem !important;
+}
+.metabox-content svg{
+    height: 64px;
+}
+.about-img> img{
 
+    width: 80%;
+}
 
+.youtube-flex{
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center !important;
+    margin: 0 !important;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 45%);
+}
+.testimonial-flex{
+    flex-wrap: wrap;
+}
+.testimonial-card{
+    width: 80%;
+}
+footer{
+    flex-wrap: wrap;
+}
+.footer-column{
+    flex: none;
+    width: 50%;
+}
+}
 
 
 
