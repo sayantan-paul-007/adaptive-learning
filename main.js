@@ -19,8 +19,10 @@ const hamclose = document.querySelector('.ham-close');
 hamicon.addEventListener('click',function () {
   hamlist.classList.add('show');
   hamlist.classList.remove('close');
+  document.body.classList.add('no-scroll');
 })
 hamclose.addEventListener('click', function () {
   hamlist.classList.remove('show');
   hamlist.classList.add('close');
+  document.body.classList.remove('no-scroll');
 })

@@ -68,6 +68,9 @@ section{
     right:1rem ;
     bottom: 1rem;
 }
+.whatsapp-btn svg{
+    height: 56px !important;
+}
 /* Navbar */
 nav{
     padding: 1rem 5rem !important;
@@ -116,7 +119,9 @@ nav{
     right: -40% !important;
     transition: .75s ease-in-out;
 }
-
+.no-scroll {
+    overflow: hidden;
+  }
 /* Banner */
 .banner-section{
     width: 100%;
@@ -391,6 +396,12 @@ footer{
     }
     .title{
         font-size: 2.25rem !important;
+    }
+    .whatsapp-btn svg{
+        height: 42px !important;
+    }
+    .contact{
+        padding: 0 !important;
     }
 }
 
