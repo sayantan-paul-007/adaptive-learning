@@ -90,6 +90,33 @@ nav{
     padding: 1rem !important;
     font-size: 1rem;
 }
+.logo{
+    width: auto !important;
+}
+.ham-icon{
+    display: none;
+}
+.ham-list ul{
+    list-style: none;
+    padding: 2rem;
+}
+.ham-list{
+    position: fixed;
+    top: 0;
+    right: -40%;
+    width: 40%;
+    background-color: aqua;
+    height: 100%;
+}
+.show{
+    right: 0 !important;
+    transition: .75s ease-in-out;
+}
+.close{
+    right: -40% !important;
+    transition: .75s ease-in-out;
+}
+
 /* Banner */
 .banner-section{
     width: 100%;
@@ -281,7 +308,7 @@ footer{
 
 .youtube-flex{
     flex-wrap: wrap;
-    width: 80%;
+    padding: 2rem 5rem !important;
     justify-content: center !important;
     margin: 0 !important;
 }
@@ -302,6 +329,62 @@ footer{
     flex: none;
     width: 50%;
 }
+}
+@media screen and (max-width: 480px){
+    section, footer{
+        padding: 1.5rem !important;
+    }
+    nav{
+        padding: 1rem 2rem !important;
+    }
+    .logo{
+        height: 56px !important;
+    }
+    .nav-center,.nav-right{
+        display: none;
+    }
+    .ham-icon{
+        display: block;
+    }
+    .title{
+        font-size: 2.5rem !important;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .youtube-flex{
+        padding: 1rem 0  !important;
+    }
+    .sub-title{
+        font-size: 0.9rem;
+    }
+    .testimonial-card{
+        width: 100%;
+    }
+    .grid-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100%);
+    padding: 1rem 0 !important;
+}
+.metabox{
+    flex-wrap: wrap;
+   
+}
+.metabox-content{
+    width: 40%;
+    padding: 0.5rem 0 !important;
+    gap: 6px;
+    font-size: 10px !important;
+}
+.metabox-content svg{
+    height: 48px;
+}
+    .footer-column{
+        width: 100% !important;
+    }
+    .title{
+        font-size: 2.25rem !important  ;
+    }
 }
 
 
