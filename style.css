@@ -335,11 +335,12 @@ footer{
         padding: 1.5rem !important;
     }
     nav{
-        padding: 1rem 2rem !important;
+        padding: .75rem 1.5rem !important;
     }
     .logo{
         height: 56px !important;
     }
+ 
     .nav-center,.nav-right{
         display: none;
     }
@@ -368,22 +369,28 @@ footer{
 }
 .metabox{
     flex-wrap: wrap;
+    padding: 0.75rem !important;
    
 }
 .metabox-content{
     width: 40%;
     padding: 0.5rem 0 !important;
-    gap: 6px;
     font-size: 10px !important;
 }
+.metabox-content p{
+    font-size: 12px !important;
+}
+.metabox-content h2{
+    font-size: 16px !important;
+}
 .metabox-content svg{
-    height: 48px;
+    height: 40px;
 }
     .footer-column{
         width: 100% !important;
     }
     .title{
-        font-size: 2.25rem !important  ;
+        font-size: 2.25rem !important;
     }
 }
 
