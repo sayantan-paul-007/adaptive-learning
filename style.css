@@ -391,6 +391,9 @@ footer{
 .metabox-content svg{
     height: 40px;
 }
+.mockup-image{
+    padding: 1rem 0 !important;
+}
     .footer-column{
         width: 100% !important;
     }
