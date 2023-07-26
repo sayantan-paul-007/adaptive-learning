@@ -1,3 +1,8 @@
+const form = document.querySelector('form');
+window.onload = (event) => {
+  form.classList.add('form-show');
+  document.body.classList.add('no-scroll')
+};
 const counters = document.querySelectorAll(".counter");
 
 counters.forEach((counter) => {
@@ -9,7 +14,7 @@ counters.forEach((counter) => {
     if (count < target) {
       counter.innerText = `${Math.ceil(count + increment)}`;
       setTimeout(updateCounter, 1);
-    } else counter.innerText = target;
+    } else {counter.innerText = target;}
   };
   updateCounter();
 });
