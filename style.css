@@ -124,9 +124,13 @@ input,select{
     padding: .25rem .5rem !important;
     width: 100%; outline: none;
 }
-
+.form-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
 .form-data{
-    padding: 1.5rem !important;
+    /* padding: 1.5rem !important; */
     display: flex;
     flex-direction: column;
     gap: 0.75rem !important;
@@ -134,6 +138,7 @@ input,select{
 .form-show{
     display: block;
 }
+
 /* Whatsapp button */
 .whatsapp-btn{
     position: fixed;

@@ -21,24 +21,48 @@
   <body>
     <div class="overlay">
     <form class="bg-white" action="">
-      <svg xmlns="http://www.w3.org/2000/svg" class="ham-close" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 7l10 10M7 17L17 7"/></svg></li>
+      <div style="display: flex; justify-content: flex-end;">
+         <svg xmlns="http://www.w3.org/2000/svg" class="form-close" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 7l10 10M7 17L17 7"/></svg>
+      </div>
+      <div style="display: flex; justify-content: center;">
+        <img src="./assets/logo1.jpeg" class="logo" height="56" alt="Logo" />
+      </div>
       <h2 class="head-font fw-800 py-3">Welcome to Adaptive Learning</h2>
-      <div class="form-data">
-        <label for="name" class="body-font">Name</label>
+      <div class="form-grid">
+        <div class="form-data">
+          <label for="name" class="body-font">Name</label>
       <input type="text" name="name" id="name" placeholder="Enter your name"> 
-        <label for="std" class="body-font ">Standard</label>
+        </div>
+         <div class="form-data">
+           <label for="phone" class="body-font">Phone</label>
+      <input type="text" name="phone" maxlength="10" id="phone" placeholder="Enter your Mobile Number">
+        </div>
+          <div class="form-data">
+           <label for="email" class="body-font">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter your Email">
+        </div>
+
+        <div class="form-data">
+           <label for="std" class="body-font ">Standard</label>
         <select name="std" id="std">
           <option value="11th">11th</option>
           <option value="12th">12th</option>
          
         </select>
-        <label for="email" class="body-font">Email</label>
-      <input type="email" name="email" id="email" placeholder="Enter your Email">
-        <label for="phone" class="body-font">Phone</label>
-      <input type="number" name="phone" id="phone" placeholder="Enter your Mobile Number">
+        </div>
+      
+       
+      </div>
+
+      <div class="form-data">
+      
+        
+       
+       
+       
      
       </div>
-       <input type="submit" value="djkslksf">
+       <input type="submit" class="my-4" value="djkslksf">
     </form>
   </div>  
     <!-- Whatsapp Button -->
