@@ -197,7 +197,7 @@ nav{
    display: none;
     background-color: #f1f1f1;
     position: absolute;
-    
+    z-index:100 !important; 
     min-width: 160px;
     top:4rem !important;
    
