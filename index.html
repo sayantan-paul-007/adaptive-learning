@@ -14,12 +14,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Adaptive Learning</title>
   </head>
   <body>
-    <div class="overlay">
+    <!-- <div class="overlay">
     <form class="bg-white" action="">
       <div style="display: flex; justify-content: flex-end;">
          <svg xmlns="http://www.w3.org/2000/svg" class="form-close" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 7l10 10M7 17L17 7"/></svg>
@@ -64,10 +67,39 @@
       </div>
        <input type="submit" class="my-4" value="djkslksf">
     </form>
-  </div>  
+  </div>   -->
     <!-- Whatsapp Button -->
     <a class="whatsapp-btn" href="">
-      <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 122.88 122.88"><defs><style>.cls-1{fill:#25d366;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-2{fill:#fff;}</style></defs><title>whatsapp-round-color</title><path class="cls-1" d="M61.44,0A61.44,61.44,0,1,1,0,61.44,61.44,61.44,0,0,1,61.44,0Z"/><path class="cls-2" d="M77,67.57c-.76-.39-4.52-2.23-5.22-2.49s-1.2-.38-1.72.39-2,2.48-2.43,3-.89.58-1.65.19a20.93,20.93,0,0,1-6.14-3.8,23.3,23.3,0,0,1-4.26-5.29A1.1,1.1,0,0,1,55.92,58c.35-.34.76-.89,1.15-1.34a5.34,5.34,0,0,0,.76-1.28,1.43,1.43,0,0,0-.06-1.34c-.2-.38-1.73-4.14-2.35-5.68s-1.26-1.28-1.73-1.31-.95,0-1.46,0a2.82,2.82,0,0,0-2,1,8.58,8.58,0,0,0-2.68,6.38c0,3.76,2.74,7.39,3.12,7.91S56,70.52,63.7,73.82a45.51,45.51,0,0,0,4.35,1.62,10.43,10.43,0,0,0,4.81.3c1.47-.21,4.52-1.84,5.16-3.63a6.37,6.37,0,0,0,.45-3.63c-.18-.34-.69-.53-1.46-.92Zm7.7-28a30.59,30.59,0,0,0-48.13,36.9L32.23,92.3l16.22-4.25a30.61,30.61,0,0,0,14.6,3.72h0A30.59,30.59,0,0,0,84.69,39.55ZM63.07,86.61a25.46,25.46,0,0,1-13-3.54l-.93-.56L39.57,85l2.57-9.38-.6-1A25.41,25.41,0,1,1,63.06,86.61Z"/></svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        id="Layer_1"
+        data-name="Layer 1"
+        viewBox="0 0 122.88 122.88"
+      >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #25d366;
+            }
+            .cls-1,
+            .cls-2 {
+              fill-rule: evenodd;
+            }
+            .cls-2 {
+              fill: #fff;
+            }
+          </style>
+        </defs>
+        <title>whatsapp-round-color</title>
+        <path
+          class="cls-1"
+          d="M61.44,0A61.44,61.44,0,1,1,0,61.44,61.44,61.44,0,0,1,61.44,0Z"
+        />
+        <path
+          class="cls-2"
+          d="M77,67.57c-.76-.39-4.52-2.23-5.22-2.49s-1.2-.38-1.72.39-2,2.48-2.43,3-.89.58-1.65.19a20.93,20.93,0,0,1-6.14-3.8,23.3,23.3,0,0,1-4.26-5.29A1.1,1.1,0,0,1,55.92,58c.35-.34.76-.89,1.15-1.34a5.34,5.34,0,0,0,.76-1.28,1.43,1.43,0,0,0-.06-1.34c-.2-.38-1.73-4.14-2.35-5.68s-1.26-1.28-1.73-1.31-.95,0-1.46,0a2.82,2.82,0,0,0-2,1,8.58,8.58,0,0,0-2.68,6.38c0,3.76,2.74,7.39,3.12,7.91S56,70.52,63.7,73.82a45.51,45.51,0,0,0,4.35,1.62,10.43,10.43,0,0,0,4.81.3c1.47-.21,4.52-1.84,5.16-3.63a6.37,6.37,0,0,0,.45-3.63c-.18-.34-.69-.53-1.46-.92Zm7.7-28a30.59,30.59,0,0,0-48.13,36.9L32.23,92.3l16.22-4.25a30.61,30.61,0,0,0,14.6,3.72h0A30.59,30.59,0,0,0,84.69,39.55ZM63.07,86.61a25.46,25.46,0,0,1-13-3.54l-.93-.56L39.57,85l2.57-9.38-.6-1A25.41,25.41,0,1,1,63.06,86.61Z"
+        />
+      </svg>
     </a>
     <!-- Navbar -->
     <nav>
@@ -76,57 +108,143 @@
           <img src="./assets/logo1.jpeg" class="logo" height="72" alt="Logo" />
         </div>
         <div class="nav-center">
-          <ul class="nav-list">
-            <li><a href="" class="nav-links fw-500">Home</a></li>
-            <li><a href="" class="nav-links fw-500">About Us</a></li>
-            <li><a href="" class="nav-links fw-500">Freebies</a></li>
-            <li><a href="" class="nav-links fw-500">Blog</a></li>
-            <li><a href="" class="nav-links fw-500">Contact Us</a></li>
-          </ul>
+         
+            <a href="" class="nav-links fw-500">Home</a>
+            <a href="" class="nav-links fw-500">About Us</a>
+
+            <div class="drop-down">
+              <a href="" class="nav-links fw-500">Freebies</a>
+              <div class="drop-down-content">
+                <div><a href="" class="nav-links fw-500">Free Videos</a></div>
+                <div><a href="" class="nav-links fw-500">YouTube</a></div>
+                <div><a href="" class="nav-links fw-500">YouTube</a></div>
+              </div>
+            </div>
+            <a href="" class="nav-links fw-500">Blog</a>
+            <a href="" class="nav-links fw-500">Contact Us</a>
+          
         </div>
-        <div class="nav-right">
-          <button class="nav-btn fw-700 text-white">Login</button>
-        </div>
-        <div class="ham-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 17h18M3 12h18M3 7h18"/></svg>
+       
+     
+      <div class="nav-right">
+        <button class="nav-btn fw-700 text-white">Login</button>
       </div>
+      <div class="ham-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 17h18M3 12h18M3 7h18"
+          />
+        </svg>
       </div>
     </nav>
     <div class="ham-list">
       <ul>
-          <li><svg xmlns="http://www.w3.org/2000/svg" class="ham-close" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 7l10 10M7 17L17 7"/></svg></li>
-          <li>dsfkjslfdjs</li>
-          <li>dsfkjslfdjs</li>
-          <li>dsfkjslfdjs</li>
-          <li>dsfkjslfdjs</li>
-          <li>dsfkjslfdjs</li>
-        </ul>
-  </div>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ham-close"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m7 7l10 10M7 17L17 7"
+            />
+          </svg>
+        </li>
+        <li>dsfkjslfdjs</li>
+        <li>dsfkjslfdjs</li>
+        <li>dsfkjslfdjs</li>
+        <li>dsfkjslfdjs</li>
+        <li>dsfkjslfdjs</li>
+      </ul>
+    </div>
     <!-- Banner Section -->
-    <div class="banner-section">
+    
+    <!-- <div class="banner-section">
       <img src="./assets/box-f2.jpg" class="banner-image" alt="" />
+    </div> -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://www.swapnilpatni.com/banners/web%20page%201601X533%20(1).jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          
+          <img src="https://www.swapnilpatni.com/banners/Website%20Poster%202.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://www.swapnilpatni.com/banners/web%20page%201601X533%20(1).jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://www.swapnilpatni.com/banners/WEBSITE%20Foundation.jpg" alt="">
+        </div>
+        
+        <!-- <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div> -->
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
     <!-- Metabox -->
     <section class="metabox body-font primary-bg text-white">
       <div class="metabox-content">
-        <iconify-icon icon="iconoir:youtube" class="meta-icon py-2"></iconify-icon>
-        <h2 class="counter head-font text-center fw-700 " data-target="3000000"></h2>
-                <p class="body-font text-center">Views on YouTube</p>
+        <iconify-icon
+          icon="iconoir:youtube"
+          class="meta-icon py-2"
+        ></iconify-icon>
+        <h2
+          class="counter head-font text-center fw-700"
+          data-target="3000000"
+        ></h2>
+        <p class="body-font text-center">Views on YouTube</p>
       </div>
       <div class="metabox-content">
-        <iconify-icon icon="carbon:time" class="meta-icon py-2" ></iconify-icon>
-                                <h2 class="counter head-font text-center fw-700" data-target="232000"></h2>
-                                <p class="body-font text-center">Watch Hours</p>
+        <iconify-icon icon="carbon:time" class="meta-icon py-2"></iconify-icon>
+        <h2
+          class="counter head-font text-center fw-700"
+          data-target="232000"
+        ></h2>
+        <p class="body-font text-center">Watch Hours</p>
       </div>
       <div class="metabox-content">
-        <iconify-icon icon="ph:users-four-light" class="meta-icon py-2" ></iconify-icon>
-          <h2 class="counter head-font text-center fw-700" data-target="40600"></h2>
-          <p class="body-font text-center">Subscribers</p>
+        <iconify-icon
+          icon="ph:users-four-light"
+          class="meta-icon py-2"
+        ></iconify-icon>
+        <h2
+          class="counter head-font text-center fw-700"
+          data-target="40600"
+        ></h2>
+        <p class="body-font text-center">Subscribers</p>
       </div>
       <div class="metabox-content">
-        <iconify-icon icon="fluent:video-recording-20-regular" class="meta-icon py-2" ></iconify-icon>
-      <h2 class="counter head-font text-center fw-700" data-target="8000"></h2>
-      <p class="body-font text-center">Recorded Content</p>
+        <iconify-icon
+          icon="fluent:video-recording-20-regular"
+          class="meta-icon py-2"
+        ></iconify-icon>
+        <h2
+          class="counter head-font text-center fw-700"
+          data-target="8000"
+        ></h2>
+        <p class="body-font text-center">Recorded Content</p>
       </div>
     </section>
     <!-- About Us -->
@@ -150,10 +268,10 @@
             environment. We aim to blend traditional teaching keeping pace with
             the changing world bringing to you, the best of both worlds.
           </p>
-          <button class="about-btn text-white fw-700">Know More </button>
+          <button class="about-btn text-white fw-700">Know More</button>
         </div>
         <div class="about-img">
-          <img src="./assets/box-f1.jpg" alt="" />
+          <img src="https://img.freepik.com/free-photo/female-speaker-giving-presentation-hall-university-workshop-audience-conference-hall_155003-27432.jpg?w=740&t=st=1690961761~exp=1690962361~hmac=c2d690ee2a9b0b09536582fac7265cdcd08be7e8ddac5884e983334c92bd8ab7" alt="" />
         </div>
       </div>
     </section>
@@ -166,17 +284,19 @@
       </p>
       <div class="youtube-flex">
         <div class="yt-card">
-          <img src="./assets/yt-thumbnail.png" alt="" />
+          <img src="./assets/yt-thumb.png" alt="" />
         </div>
         <div class="yt-card">
-          <img src="./assets/yt-thumbnail.png" alt="" />
+          <img src="./assets/yt-thumb-1.png" alt="" />
         </div>
         <div class="yt-card">
-          <img src="./assets/yt-thumbnail.png" alt="" />
+          <img src="./assets/yt-thumb-2.png" alt="" />
         </div>
       </div>
       <div class="yt-button">
-        <button class="yt-btn body-font text-white fw-600 primary-bg">View all videos</button>
+        <button class="yt-btn body-font text-white fw-600 primary-bg">
+          View all videos
+        </button>
       </div>
     </section>
     <section class="why-adaptive">
@@ -192,7 +312,7 @@
         <div class="grid-card neutral-1-bg shadow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            style="height: 64px;"
+            style="height: 64px"
             viewBox="0 0 24 24"
           >
             <path
@@ -213,7 +333,7 @@
         <div class="grid-card neutral-bg shadow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            style="height: 64px;"
+            style="height: 64px"
             viewBox="0 0 24 24"
           >
             <path
@@ -234,7 +354,7 @@
         <div class="grid-card neutral-1-bg shadow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            style="height: 64px;"
+            style="height: 64px"
             viewBox="0 0 24 24"
           >
             <path
@@ -255,7 +375,7 @@
         <div class="grid-card neutral-bg shadow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            style="height: 64px;"
+            style="height: 64px"
             viewBox="0 0 24 24"
           >
             <path
@@ -276,7 +396,7 @@
         <div class="grid-card neutral-1-bg shadow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            style="height: 64px;"
+            style="height: 64px"
             viewBox="0 0 24 24"
           >
             <path
@@ -297,7 +417,7 @@
         <div class="grid-card neutral-bg shadow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            style="height: 64px;"
+            style="height: 64px"
             viewBox="0 0 24 24"
           >
             <path
@@ -319,133 +439,208 @@
     </section>
     <!-- Modes of Learning -->
     <section class="our-modes-of-learning neutral-2-bg">
-        <h2 class="head-font title text-uppercase fw-900 text-center">Our modes of learning</h2>
+      <h2 class="head-font title text-uppercase fw-900 text-center">
+        Our modes of learning
+      </h2>
       <p class="head-font sub-title text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
         tempore facere at non labore soluta ipsam dolor, cupiditate dicta?
       </p>
       <div class="about-flex">
-        <img src="./assets/mockup.png" class="mockup-image" alt="">
+        <img src="./assets/mockup.png" class="mockup-image" alt="" />
       </div>
     </section>
     <!-- Testimonials -->
     <section class="testimonial">
-        <h2 class="head-font title text-uppercase fw-900 text-center">Testimonial</h2>
-        <p class="head-font sub-title text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
-          tempore facere at non labore soluta ipsam dolor, cupiditate dicta?
-        </p>
-       <div class="testimonial-flex">
+      <h2 class="head-font title text-uppercase fw-900 text-center">
+        Testimonial
+      </h2>
+      <p class="head-font sub-title text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
+        tempore facere at non labore soluta ipsam dolor, cupiditate dicta?
+      </p>
+      <div class="testimonial-flex">
         <div class="testimonial-card neutral-1-bg shadow">
-            <div class="test-image">
-                 <img src="https://img.freepik.com/free-photo/handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair_186202-8527.jpg?w=740&t=st=1689528843~exp=1689529443~hmac=10813ebe03ef325dc9bce18af1a0287cde52315673288340347685569af427f3" style="width: 80px !important;"  alt=""> 
-            </div>
-            <q class="body-font test-text">
-                I recently took the Adaptive Learning online e-learning course and it was the best course I have ever taken. The quality of the content was outstanding and the handwritten notes were incredibly helpful. I was able to apply the knowledge I gained from the course to my commerce studies and it was invaluable. I highly recommend this course to anyone looking to further their knowledge in the field of commerce.
-            </q>
-            <p class="test-user head-font text-center fw-800">
-                Alexander Cross
-            </p>
+          <div class="test-image">
+            <img
+              src="https://img.freepik.com/free-photo/handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair_186202-8527.jpg?w=740&t=st=1689528843~exp=1689529443~hmac=10813ebe03ef325dc9bce18af1a0287cde52315673288340347685569af427f3"
+              style="width: 80px !important"
+              alt=""
+            />
+          </div>
+          <q class="body-font test-text">
+            I recently took the Adaptive Learning online e-learning course and
+            it was the best course I have ever taken. The quality of the content
+            was outstanding and the handwritten notes were incredibly helpful. I
+            was able to apply the knowledge I gained from the course to my
+            commerce studies and it was invaluable. I highly recommend this
+            course to anyone looking to further their knowledge in the field of
+            commerce.
+          </q>
+          <p class="test-user head-font text-center fw-800">Alexander Cross</p>
         </div>
         <div class="testimonial-card shadow">
-            <div class="test-image">
-                 <img src="https://img.freepik.com/free-photo/handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair_186202-8527.jpg?w=740&t=st=1689528843~exp=1689529443~hmac=10813ebe03ef325dc9bce18af1a0287cde52315673288340347685569af427f3" style="width: 80px !important;"  alt=""> 
-            </div>
-            <q class="body-font test-text">
-                I recently took the Adaptive Learning online e-learning course and it was the best course I have ever taken. The quality of the content was outstanding and the handwritten notes were incredibly helpful. I was able to apply the knowledge I gained from the course to my commerce studies and it was invaluable. I highly recommend this course to anyone looking to further their knowledge in the field of commerce.
-            </q>
-            <p class="test-user head-font text-center fw-800">
-                Alexander Cross
-            </p>
+          <div class="test-image">
+            <img
+              src="https://img.freepik.com/free-photo/handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair_186202-8527.jpg?w=740&t=st=1689528843~exp=1689529443~hmac=10813ebe03ef325dc9bce18af1a0287cde52315673288340347685569af427f3"
+              style="width: 80px !important"
+              alt=""
+            />
+          </div>
+          <q class="body-font test-text">
+            I recently took the Adaptive Learning online e-learning course and
+            it was the best course I have ever taken. The quality of the content
+            was outstanding and the handwritten notes were incredibly helpful. I
+            was able to apply the knowledge I gained from the course to my
+            commerce studies and it was invaluable. I highly recommend this
+            course to anyone looking to further their knowledge in the field of
+            commerce.
+          </q>
+          <p class="test-user head-font text-center fw-800">Alexander Cross</p>
         </div>
         <div class="testimonial-card neutral-1-bg shadow">
-            <div class="test-image">
-                 <img src="https://img.freepik.com/free-photo/handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair_186202-8527.jpg?w=740&t=st=1689528843~exp=1689529443~hmac=10813ebe03ef325dc9bce18af1a0287cde52315673288340347685569af427f3" style="width: 80px !important;"  alt=""> 
-            </div>
-            <q class="body-font test-text">
-                I recently took the Adaptive Learning online e-learning course and it was the best course I have ever taken. The quality of the content was outstanding and the handwritten notes were incredibly helpful. I was able to apply the knowledge I gained from the course to my commerce studies and it was invaluable. I highly recommend this course to anyone looking to further their knowledge in the field of commerce.
-            </q>
-            <p class="test-user head-font text-center fw-800">
-                Alexander Cross
-            </p>
+          <div class="test-image">
+            <img
+              src="https://img.freepik.com/free-photo/handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair_186202-8527.jpg?w=740&t=st=1689528843~exp=1689529443~hmac=10813ebe03ef325dc9bce18af1a0287cde52315673288340347685569af427f3"
+              style="width: 80px !important"
+              alt=""
+            />
+          </div>
+          <q class="body-font test-text">
+            I recently took the Adaptive Learning online e-learning course and
+            it was the best course I have ever taken. The quality of the content
+            was outstanding and the handwritten notes were incredibly helpful. I
+            was able to apply the knowledge I gained from the course to my
+            commerce studies and it was invaluable. I highly recommend this
+            course to anyone looking to further their knowledge in the field of
+            commerce.
+          </q>
+          <p class="test-user head-font text-center fw-800">Alexander Cross</p>
         </div>
-        
-       </div>
+      </div>
     </section>
     <!-- App Support -->
     <section class="app-support neutral-bg">
-      <h2 class="head-font title text-uppercase fw-900 text-center">Adaptive in phone</h2>
-        <p class="head-font sub-title text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
-          tempore facere at non labore soluta ipsam dolor, cupiditate dicta?
-        </p>
-        <div class="mobile-app">
-          
-          <img src="./assets/mobile-app.png" class="mobile-app-image" alt="">
-        </div>
-        
+      <h2 class="head-font title text-uppercase fw-900 text-center">
+        Adaptive in phone
+      </h2>
+      <p class="head-font sub-title text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
+        tempore facere at non labore soluta ipsam dolor, cupiditate dicta?
+      </p>
+      <div class="mobile-app">
+        <img src="./assets/mobile-app.png" class="mobile-app-image" alt="" />
+      </div>
     </section>
     <!-- Footer -->
     <footer>
       <div class="footer-column">
         <div class="brand-image">
-          <img src="./assets/logo.png" style="width: 120px !important;" alt="">
-
+          <img src="./assets/logo.png" style="width: 120px !important" alt="" />
         </div>
-        
+
         <ul class="contact">
           <li class="contact-flex">
             <span class="iconify" data-icon="subway:location-1"></span>
-            <p>Opp Jogidas Vithal 's Pole, Raopura Road, Opp Jogidas Vithal 's Pole, Raopura Road,  Vadodara, Gujarat</p>
+            <p>
+              Opp Jogidas Vithal 's Pole, Raopura Road, Opp Jogidas Vithal 's
+              Pole, Raopura Road, Vadodara, Gujarat
+            </p>
           </li>
           <li class="contact-flex">
-            <span class="iconify" style="font-size: 24px;" data-icon="gg:phone"></span>
+            <span
+              class="iconify"
+              style="font-size: 24px"
+              data-icon="gg:phone"
+            ></span>
             <a href="tel:+91 7387534593">+91 7387534593</a>
           </li>
           <li class="contact-flex">
-            <span class="iconify" style="font-size: 24px;"  data-icon="uiw:mail"></span>
-            <a href="mailto:theadaptivelearning@gmail.com">theadaptivelearning@gmail.com</a>
+            <span
+              class="iconify"
+              style="font-size: 24px"
+              data-icon="uiw:mail"
+            ></span>
+            <a href="mailto:theadaptivelearning@gmail.com"
+              >theadaptivelearning@gmail.com</a
+            >
           </li>
         </ul>
       </div>
       <div class="footer-column">
         <p class="foot-head fw-700">Courses</p>
         <ul class="contact">
-          <li class="contact-flex"><span class="iconify" data-icon="bi:caret-right-fill"></span><a href="/">Commercdnssn,mns,and,n,ns,ne</a></li>
-          <li class="contact-flex"><span class="iconify" data-icon="bi:caret-right-fill"></span><a href="/">Commerce</a></li>
-          <li class="contact-flex"><span class="iconify" data-icon="bi:caret-right-fill"></span><a href="/">Commerce</a></li>
+          <li class="contact-flex">
+            <span class="iconify" data-icon="bi:caret-right-fill"></span
+            ><a href="/">Commercdnssn,mns,and,n,ns,ne</a>
+          </li>
+          <li class="contact-flex">
+            <span class="iconify" data-icon="bi:caret-right-fill"></span
+            ><a href="/">Commerce</a>
+          </li>
+          <li class="contact-flex">
+            <span class="iconify" data-icon="bi:caret-right-fill"></span
+            ><a href="/">Commerce</a>
+          </li>
         </ul>
       </div>
       <div class="footer-column">
         <p class="foot-head fw-700">Quick Links</p>
         <ul class="contact">
-          <li class="contact-flex"><span class="iconify" data-icon="bi:caret-right-fill"></span><a href="/">Commercdnssn,mns,and,n,ns,ne</a></li>
-          <li class="contact-flex"><span class="iconify" data-icon="bi:caret-right-fill"></span><a href="/">Commerce</a></li>
-          <li class="contact-flex"><span class="iconify" data-icon="bi:caret-right-fill"></span><a href="/">Commerce</a></li>
+          <li class="contact-flex">
+            <span class="iconify" data-icon="bi:caret-right-fill"></span
+            ><a href="/">Commercdnssn,mns,and,n,ns,ne</a>
+          </li>
+          <li class="contact-flex">
+            <span class="iconify" data-icon="bi:caret-right-fill"></span
+            ><a href="/">Commerce</a>
+          </li>
+          <li class="contact-flex">
+            <span class="iconify" data-icon="bi:caret-right-fill"></span
+            ><a href="/">Commerce</a>
+          </li>
         </ul>
       </div>
       <div class="footer-column">
         <p class="foot-head fw-700">Support</p>
         <ul class="contact">
-          <li class="contact-flex"><span class="iconify" data-icon="bi:caret-right-fill"></span><a href="/">Commercdnssn,mns,and,n,ns,ne</a></li>
-          <li class="contact-flex"><span class="iconify" data-icon="bi:caret-right-fill"></span><a href="/">Commerce</a></li>
-          <li class="contact-flex"><span class="iconify" data-icon="bi:caret-right-fill"></span><a href="/">Commerce</a></li>
+          <li class="contact-flex">
+            <span class="iconify" data-icon="bi:caret-right-fill"></span
+            ><a href="/">Commercdnssn,mns,and,n,ns,ne</a>
+          </li>
+          <li class="contact-flex">
+            <span class="iconify" data-icon="bi:caret-right-fill"></span
+            ><a href="/">Commerce</a>
+          </li>
+          <li class="contact-flex">
+            <span class="iconify" data-icon="bi:caret-right-fill"></span
+            ><a href="/">Commerce</a>
+          </li>
         </ul>
       </div>
     </footer>
- 
-     <!-- Script Files -->
+
+    <!-- Script Files -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
-    ></script>
+    >
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        autoplay:true,
+        loop:true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
     <script>
       AOS.init();
     </script>

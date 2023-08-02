@@ -1,14 +1,15 @@
 const form = document.querySelector('form');
 const formclose = document.querySelector('.form-close');
 const overlay = document.querySelector('.overlay');
-window.onload = (event) => {
-  form.classList.add('form-show');
-};
-formclose.addEventListener('click', function(){
-  document.body.classList.remove('no-scroll');
-  form.classList.remove('form-show');
-  overlay.remove();
-})
+// window.onload = (event) => {
+//   form.classList.add('form-show');
+  
+// };
+// formclose.addEventListener('click', function(){
+//   document.body.classList.remove('no-scroll');
+//   form.classList.remove('form-show');
+//   overlay.remove();
+// })
 const counters = document.querySelectorAll(".counter");
 
 counters.forEach((counter) => {
