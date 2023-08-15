@@ -41,7 +41,7 @@ button{
     border: none !important;
 }
 
-.overlay{
+/* .overlay{
    position: absolute; 
  inset: 0;
    width: 100%;
@@ -49,7 +49,7 @@ button{
 
    background-color: rgba(0, 0, 0, 0.6);
    z-index: 100;
-}
+} */
 
 /* Font Classes */
 .primary-text{
@@ -99,12 +99,13 @@ button{
 .title{
     font-size: 3rem;
     padding-bottom: 1.5rem !important;
-}
+   }
 .sub-title{
     font-size: 1.25rem;
 }
 section{
-    padding: 2rem 5rem !important;
+    padding: 3rem 5rem !important;
+    width: 100% !important;
 }
 /* Form Classes */
 form{
@@ -124,20 +125,20 @@ input,select{
     padding: .25rem .5rem !important;
     width: 100%; outline: none;
 }
-.form-grid{
+/* .form-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1rem;
 }
 .form-data{
-    /* padding: 1.5rem !important; */
+    padding: 1.5rem !important;
     display: flex;
     flex-direction: column;
     gap: 0.75rem !important;
 }
 .form-show{
     display: block;
-}
+} */
 
 /* Whatsapp button */
 .whatsapp-btn{
@@ -282,30 +283,54 @@ img{
     content: '+';
 }
 /* About Us */
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    gap: 30px !important;
+}
+.about-title{
+    font-size: 3rem;
+    text-align: left !important;
+   padding-left: 33px;
+}
+.about-border-left{
+    border-left: .75rem solid var(--accent);
+    padding-left: 1rem !important;
+}
 .about-flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    width: 100% !important;
 }
-.about-flex >div{
-    width: 50%;
-}
+
 .about-img{
     display: flex;
     justify-content: center;
+    width: 35% !important;
+}
+.about-flex img{
+    width: fit-content;
 }
 .about-text{
+    font-size: 1.1rem;
 display: flex;
+justify-content: space-between;
 flex-direction: column;
+width: 65% !important;
 gap: 20px;
+}
+.about-text-wrapper{
+    display: flex !important;
+    align-items: center !important;
 }
 .about-btn{
     width: fit-content;
-    padding: 1rem 2rem !important;
-    font-size: 1rem;
+    padding: 0.8rem 1.5rem !important;
+    font-size: 1.05rem;
     background-color: var(--accent);
-    border-radius: .75rem;
+    border-radius: .5rem;
 }
 /* Youtube */
 .youtube-flex{
@@ -404,9 +429,9 @@ footer{
     color: white;
     justify-content: space-around;
 }
-.footer-column{
+/* .footer-column{
 
-}
+} */
 
 
 
@@ -519,6 +544,7 @@ footer{
     }
     .sub-title{
         font-size: 0.9rem;
+        padding: 0 1rem !important;
     }
     .testimonial-card{
         width: 100%;
