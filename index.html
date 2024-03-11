@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./tailwind.config.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <title>Document</title>
+</head>
+<body class="outline-0">
+  <!-- Navbar -->
+  <section class="px-[120px] max-laptop:px-20 max-tablet:px-12 max-mobile:px-8 border-b-2 main">
+    <nav class="py-4 max-mobile:py-3 flex justify-between max-mobile:justify-center max-tablet:font-medium">
+      <a href="index.html"><img src="./assets/logo1.jpeg" class="h-[80px] max-laptop:h-[60px] max-mobile:hidden" alt="Logo"></a>
+      <div class="flex justify-between items-center text-[28px] max-laptop:text-xl max-mobile:hidden w-7/12  max-tablet:w-9/12">
+      <a href="https://www.google.com">Home</a>
+      <a href="https://www.google.com">About Us</a>
+      <a href="https://www.google.com">Freebies</a>
+      <a href="https://www.google.com">Blog</a>
+      <a href="https://www.google.com">Contact Us</a>
+      <button class="bg-blue-800 text-white rounded-[20px] max-tablet:rounded-[10px] h-full px-12 max-laptop:px-10"><a href="https://www.google.com">Login</a></button>
+
+     </div>
+     <div class=" flex w-full justify-between hidden max-mobile:flex">
+  <img src="./assets/logo-mobile.png" class="hidden max-mobile:block h-[40px]" alt="">
+        <div class="flex flex-end items-center ">
+          <svg xmlns="http://www.w3.org/2000/svg"  class="text-3xl menu" width="1em" height="1em" viewBox="0 0 16 16">
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5"/>
+          </svg>
+        </div>
+     </div>
+      <ul class="absolute bg-black right-0 top-0 w-[45%] h-full p-4 text-white ham-menu_ul hidden ">
+        <li class="flex justify-end">
+          <svg xmlns="http://www.w3.org/2000/svg" class="text-2xl order-last mb-8 ham-menu " width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6m0 12L6 6"/></svg>
+        </li>
+        <li class="pb-4 text-center font-normal"><a href="https://www.google.com">Home</a></li>
+        <li class="pb-4 text-center font-normal"><a href="https://www.google.com">About Us</a></li>
+        <li class="pb-4 text-center font-normal"><a href="https://www.google.com">Freebies</a></li>
+        <li class="pb-4 text-center font-normal"><a href="https://www.google.com">Blog</a></li>
+        <li class="pb-4 text-center font-normal"><a href="https://www.google.com">Contact Us</a></li>
+        <li class="flex justify-center">  <button class="bg-blue-800 text-white rounded-[20px] py-2 px-12 max-laptop:px-10"><a href="https://www.google.com">Login</a></button></li>
+      </ul>
+   
+  </nav>
+  </section>
+  <!-- Hero -->
+<section class="hero bg-neutral flex items-center  max-mobile:flex-col-reverse px-[120px] max-laptop:px-20 max-tablet:px-12 max-mobile:px-8  ">
+  <div class="w-1/2 max-mobile:w-full flex flex-col pb-6">
+  <h1 class="main font-bold max-laptop:text-5xl text-6xl max-tablet:text-4xl pb-8 max-laptop:pb-4 leading-none max-mobile:text-center">
+    Unlock Your Potential with Online Learning!
+  </h1> 
+  <p class="max-laptop:text-lg text-2xl font-normal max-tablet:text-base max-mobile:text-center pb-10 max-laptop:pb-7">
+    Embark on a Personalized Learning Journey Tailored to Your Goals and Interests. Access High-Quality Courses, Engage with Expert Instructors, and Watch Your Skills Flourish.
+  </p> 
+  <div class="flex w-full max-mobile:justify-center">
+    <button class="text-2xl py-5 px-10 bg-blue-800 rounded-[10px] font-medium text-white max-laptop:py-3 max-laptop:px-8 max-laptop:text-lg">
+  Join Now
+ </button>
+  </div>
+  </div>
+  <div class="w-1/2 max-mobile:w-full flex justify-center">
+    <img src="./assets/hero-img.png" class="w-10/12" alt="">
+  </div>
+</section>
+<!-- About Us Section -->
+<section class="hero flex items-center  max-mobile:flex-col gap-8 px-[120px] max-laptop:px-20 max-tablet:px-12 max-mobile:px-8 py-12 ">
+  <div class="w-1/2 max-mobile:w-full flex justify-center ">
+    <img src="./assets/logo copy.png" class="w-1/2" alt="">
+  </div>
+  <div class="w-1/2 max-mobile:w-full flex flex-col pb-6">
+    <h1 class="main font-bold max-laptop:text-5xl text-6xl max-tablet:text-4xl pb-2  leading-none max-mobile:text-center">
+      About <span class="text-pink-500">US</span> 
+    </h1> 
+  <div class="py-8 max-laptop:py-3">
+    <p class="max-laptop:text-xl text-2xl font-normal max-tablet:text-base pb-3">
+      Adaptive Learning is an interactive video-based platform focussed on rendering academic concepts with hands-on and result oriented approaches.
+    </p> 
+    <p class="max-laptop:text-xl text-2xl font-normal max-tablet:text-base pb-3">
+    Adaptive learning is an online initiative to bring mainstream education to the masses and emancipate them with the understanding of the current happenings and the causes that matter at the same time with the help of technology.
+      
+      </p> 
+   
+  </div>
+    <div class="flex w-full max-mobile:justify-center">
+      <button class="text-2xl py-5 px-10 bg-green-400 rounded-[10px] font-medium text-white max-laptop:py-3 max-laptop:px-8 max-laptop:text-lg">
+    Know More
+   </button>
+    </div>
+</section>
+<!-- Why Section -->
+<section class="hero bg-neutral  px-[120px] max-laptop:px-20 max-tablet:px-12 max-mobile:px-8  py-20 max-laptop:py-12 max-tablet:py-8  ">
+  <h4 class="main font-bold max-laptop:text-5xl text-6xl text-center max-tablet:text-4xl pb-8 max-laptop:pb-4 leading-none w-full">
+  Why choose <span class="text-green-400 uppercase">Adaptive Learning?</span> 
+  </h4>
+ <div class="py-12 grid grid-cols-3 max-tablet:grid-cols-2 max-mobile:grid-cols-1 gap-8 px-20 max-tablet:px-8">
+  <div class="shadow-lg bg-white p-6 rounded-[10px] flex flex-col justify-center text-center  gap-4">
+    <div class="flex justify-center">
+      <img src="./assets/flexibility.png"  alt="">
+    </div>
+    <p class="text-2xl font-medium py-2">Flexible Learning Environment</p>
+  </div>
+  <div class="shadow-lg bg-white p-6 rounded-[10px] flex justify-center text-center flex-col gap-4">
+     <div class="flex justify-center">
+<img src="./assets/virtual-class 1.png" class=""  alt="">
+    
+     </div>
+    <p class="text-2xl font-medium py-2">Personalized Learning</p>
+  </div>
+  <div class="shadow-lg bg-white p-6 rounded-[10px] flex justify-center text-center flex-col gap-4">
+     <div class="flex justify-center">
+  <img src="./assets/care.png"  alt="">
+     </div>
+  
+    <p class="text-2xl font-medium py-2">Supportive Community
+
+    </p>
+  </div>
+  <div class="shadow-lg bg-white p-6 rounded-[10px] flex justify-center text-center flex-col gap-4">
+     <div class="flex justify-center">
+       <img src="./assets/affordable.png"  alt="">
+     </div>
+   
+    <p class="text-2xl font-medium py-2">Affordability</p>
+  </div>
+  <div class="shadow-lg bg-white p-6 rounded-[10px] flex justify-center text-center flex-col gap-4">
+     <div class="flex justify-center">
+<img src="./assets/high-quality.png"  alt="">
+    
+     </div>
+    <p class="text-2xl font-medium py-2">Quality Content</p>
+  </div>
+  <div class="shadow-lg bg-white p-6 rounded-[10px] flex justify-center text-center flex-col gap-4">
+     <div class="flex justify-center">
+ <img src="./assets/tracking.png"  alt="">
+   
+     </div>
+    <p class="text-2xl font-medium py-2">Track Your Progress
+
+    </p>
+  </div>
+ </div>
+</section>
+<!-- Youtube Section -->
+<section class="hero bg-gradient-to-tr from-red-200 to-red-50  px-[120px] max-laptop:px-20 max-tablet:px-12 max-mobile:px-8  py-20 max-laptop:py-12 max-tablet:py-8  ">
+<h4 class="main font-bold max-laptop:text-5xl text-6xl text-center max-tablet:text-4xl pb-8 max-laptop:pb-4 leading-none w-full">
+Adaptive Learning on <span class="text-red-500">YOUTUBE</span> 
+</h4>
+
+  <div class="swiper mySwiper py-8 w-[90%] max-mobile:w-full">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide w-3/5 max-mobile:w-[90%]">
+        <div class="flex justify-center ">
+<a href=""><img src="https://i3.ytimg.com/vi/vHuGkCcAfXA/maxresdefault.jpg" class=" rounded-[20px]" /></a>
+        </div>
+        
+      </div>
+      <div class="swiper-slide w-3/5 max-mobile:w-[90%]">
+        <div class="flex justify-center ">
+<a href=""><img src="https://i3.ytimg.com/vi/vHuGkCcAfXA/maxresdefault.jpg" class=" rounded-[20px]" /></a>
+        </div>
+        
+      </div>
+      <div class="swiper-slide w-3/5 max-mobile:w-[90%]">
+        <div class="flex justify-center ">
+<a href=""><img src="https://i3.ytimg.com/vi/vHuGkCcAfXA/maxresdefault.jpg" class=" rounded-[20px]" /></a>
+        </div>
+        
+      </div>
+      <div class="swiper-slide w-3/5 max-mobile:w-[90%]">
+        <div class="flex justify-center ">
+<a href=""><img src="https://i3.ytimg.com/vi/vHuGkCcAfXA/maxresdefault.jpg" class=" rounded-[20px]" /></a>
+        </div>
+        
+      </div>
+      <div class="swiper-slide w-3/5 max-mobile:w-[90%]">
+        <div class="flex justify-center ">
+<a href=""><img src="https://i3.ytimg.com/vi/vHuGkCcAfXA/maxresdefault.jpg" class=" rounded-[20px]" /></a>
+        </div>
+        
+      </div>
+      
+    </div>
+  
+  </div>
+<div class="flex justify-center text-center py-4">
+  <div class="w-3/5 max-mobile:w-4/5  grid place-items-center grid-cols-4 max-mobile:grid-cols-2 gap-[14px]">
+    <div class="flex flex-col text-red-500 ">
+      <div class="flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class='text-red-500 text-8xl max-laptop:text-6xl max-tablet:text-5xl ' viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-width="1.5">
+            <path fill="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m14 12l-3.5 2v-4z" />
+            <path d="M2 12.708v-1.416c0-2.895 0-4.343.905-5.274c.906-.932 2.332-.972 5.183-1.053C9.438 4.927 10.818 4.9 12 4.9c1.181 0 2.561.027 3.912.065c2.851.081 4.277.121 5.182 1.053c.906.931.906 2.38.906 5.274v1.415c0 2.896 0 4.343-.905 5.275c-.906.931-2.331.972-5.183 1.052c-1.35.039-2.73.066-3.912.066a141.1 141.1 0 0 1-3.912-.066c-2.851-.08-4.277-.12-5.183-1.052C2 17.05 2 15.602 2 12.708Z" />
+          </g>
+        </svg>  
+      </div>
+      <p class='text-3xl max-laptop:text-2xl font-bold'>300000+</p>
+      <p class='text-xl  max-laptop:text-base max-tablet:text-sm max-mobile:text-base py-1'>
+        Views on YouTube
+    </p>
+     </div>
+     <div class="flex flex-col text-red-500 ">
+      <div class="flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class='text-red-500 text-8xl max-laptop:text-6xl max-tablet:text-5xl ' viewBox="0 0 32 32">
+          <path fill="currentColor" d="M16 30a14 14 0 1 1 14-14a14 14 0 0 1-14 14m0-26a12 12 0 1 0 12 12A12 12 0 0 0 16 4" />
+	<path fill="currentColor" d="M20.59 22L15 16.41V7h2v8.58l5 5.01z" />
+        </svg>  
+      </div>
+      <p class='text-3xl max-laptop:text-2xl font-bold'>232000+</p>
+      <p class='text-xl max-laptop:text-base max-tablet:text-sm max-mobile:text-base py-1'>
+        Watch Hours
+    </p>
+     </div>
+     <div class="flex flex-col text-red-500 ">
+      <div class="flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class='text-red-500 text-8xl max-laptop:text-6xl max-tablet:text-5xl ' viewBox="0 0 256 256">
+          <path fill="currentColor" d="M28.4 124.8a6 6 0 0 0 8.4-1.2a54 54 0 0 1 86.4 0a6 6 0 0 0 8.4 1.19a5.59 5.59 0 0 0 1.19-1.19a54 54 0 0 1 86.4 0a6 6 0 0 0 9.6-7.21a65.74 65.74 0 0 0-29.69-22.26a38 38 0 1 0-46.22 0A65.32 65.32 0 0 0 128 110.7a65.32 65.32 0 0 0-24.89-16.57a38 38 0 1 0-46.22 0A65.69 65.69 0 0 0 27.2 116.4a6 6 0 0 0 1.2 8.4M176 38a26 26 0 1 1-26 26a26 26 0 0 1 26-26m-96 0a26 26 0 1 1-26 26a26 26 0 0 1 26-26m119.11 160.13a38 38 0 1 0-46.22 0A65.32 65.32 0 0 0 128 214.7a65.32 65.32 0 0 0-24.89-16.57a38 38 0 1 0-46.22 0A65.69 65.69 0 0 0 27.2 220.4a6 6 0 1 0 9.6 7.2a54 54 0 0 1 86.4 0a6 6 0 0 0 8.4 1.19a5.59 5.59 0 0 0 1.19-1.19a54 54 0 0 1 86.4 0a6 6 0 0 0 9.6-7.21a65.74 65.74 0 0 0-29.68-22.26M80 142a26 26 0 1 1-26 26a26 26 0 0 1 26-26m96 0a26 26 0 1 1-26 26a26 26 0 0 1 26-26" />
+        </svg>
+         
+      </div>
+      <p class='text-3xl max-laptop:text-2xl font-bold'> 40600+</p>
+      <p class='text-xl  max-laptop:text-base max-tablet:text-sm max-mobile:text-base py-1'>
+        Subscribers
+    </p>
+     </div>
+     <div class="flex flex-col text-red-500 ">
+      <div class="flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" class='text-red-500 text-8xl max-laptop:text-6xl max-tablet:text-5xl '>
+          <path fill="currentColor" d="M4.5 4A2.5 2.5 0 0 0 2 6.5v2.837c.31-.148.647-.251 1-.302V6.5A1.5 1.5 0 0 1 4.5 5h7A1.5 1.5 0 0 1 13 6.5v7a1.5 1.5 0 0 1-1.5 1.5H11v1h.5a2.5 2.5 0 0 0 2.5-2.5v-1l2.4 1.8a1 1 0 0 0 1.6-.8v-7a1 1 0 0 0-1.6-.8L14 7.5v-1A2.5 2.5 0 0 0 11.5 4zM14 8.75l3-2.25v7l-3-2.25zM1 12.5A2.5 2.5 0 0 1 3.5 10h4a2.5 2.5 0 0 1 2.5 2.5v4A2.5 2.5 0 0 1 7.5 19h-4A2.5 2.5 0 0 1 1 16.5zm4.02.034a.452.452 0 0 0-.447-.037a.49.49 0 0 0-.156.108a.51.51 0 0 0-.145.357v3.075a.502.502 0 0 0 .145.358a.563.563 0 0 0 .158.11a.45.45 0 0 0 .323.02a.52.52 0 0 0 .13-.064l2.296-1.567a.47.47 0 0 0 .163-.185a.536.536 0 0 0-.003-.487a.487.487 0 0 0-.168-.182z" />
+        </svg>
+      </div>
+      <p class='text-3xl max-laptop:text-2xl font-bold'>8000+</p>
+      <p class='text-xl  max-laptop:text-base max-tablet:text-sm max-mobile:text-base py-1'>
+        Recorded Content
+    </p>
+     </div>
+     
+     
+    </div>
+</div>
+<div class="flex justify-center">
+  <button><a href="">Visit our channel</a></button>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
