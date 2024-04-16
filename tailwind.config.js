@@ -9,6 +9,7 @@ tailwind.config = {
       },
       fontFamily: {
         main: ["Poppins", "sans-serif"],
+        serif: ["Playfair Display", "serif"]
       },
       screens: {
         'tablet': '1025px',  
