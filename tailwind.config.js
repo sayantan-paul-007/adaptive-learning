@@ -15,7 +15,10 @@ tailwind.config = {
         'tablet': '1025px',  
         'laptop': '1600px',
         'mobile': '800px',
-      }
+      },
+      container: {
+        center: true,
+      },
     }
   }
 }
